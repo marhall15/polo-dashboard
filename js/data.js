@@ -7,13 +7,13 @@
 window.POLO_DATA = {
 
   meta: {
-    updated: "6 October 2026",
-    edition: "No. 1",
+    updated: "13 October 2026",
+    edition: "No. 2",
     stats: [
+      { n: "2",   l: "Tortugas matches played in 8 days" },
+      { n: "32",  l: "Finals in the 2026 ledger" },
       { n: "40",  l: "Goals — highest-rated team on earth" },
-      { n: "29",  l: "Finals in the 2026 ledger" },
-      { n: "18–14", l: "Hurlingham final, 4 Oct" },
-      { n: "10",  l: "Teams at Tortugas — a record" },
+      { n: "Feb 2027", l: "FIP World Cup — Uruguay, confirmed" },
       { n: "7",   l: "Regions tracked" }
     ]
   },
@@ -49,15 +49,15 @@ window.POLO_DATA = {
         name: "86th Tortugas Open",
         dates: "6 Oct – 7 Nov 2026 · Tortugas Country Club",
         state: "active",
-        statusLabel: "Live — opened today",
+        statusLabel: "Live — rained off",
         champion: null,
         scoreline: [
           { team: "Ellerstina Indios Chapaleufú", goals: "18", win: true },
           { team: "La Zeta Kazak",                goals: "10" }
         ],
         note:
-          "Ten teams for the first time in the tournament's history, after the AAP gave both Qualification Tournament winners a Tortugas berth as well as a Palermo one. Opening day went to Ellerstina, Facundo Pieres decisive. La Ensenada also beat Don Ercole 17-13 (single-sourced, treat as provisional). Final: Saturday 7 November.",
-        source: { name: "Pololine — Tortugas preview", url: "https://www.pololine.com/news/the-triple-crown-continues-with-the-86th-tortugas-open/" }
+          "Ten teams for the first time, after the AAP gave both Qualification Tournament winners a Tortugas berth. But the tournament has barely started: only the two opening-day Zone A matches have been played. Rain has wiped out every date since, and on 13 October organisers called a match off fifteen minutes before the throw-in on safety grounds. Zone B — Las Monjitas, La Hache, Híper, La Aguada, La Irenita — has yet to play a single chukka. Next up, weather permitting: Zone B on 15 October, and La Natividad La Dolfina's debut on 16 October.",
+        source: { name: "Olé — rain suspensions", url: "https://www.ole.com.ar/polo/suspension-lluvia-ver-abierto-tortugas_0_0kOBYlWeZG.html" }
       },
       {
         name: "133rd Argentine Open — Palermo",
@@ -67,7 +67,7 @@ window.POLO_DATA = {
         champion: null,
         scoreline: null,
         note:
-          "The Cathedral. Dates are provisional: AAP president Benjamín Araya has said Pope Leo XIV's visit to Argentina (8–11 Nov), including a mass expected to draw over a million people at the Monumento de los Españoles in Palermo, will force the opening dates to shift. The 12 December final still stands. Tennium, which runs the Argentina Open tennis event, joins as the AAP's commercial partner.",
+          "The Cathedral. Dates remain provisional: AAP president Benjamín Araya said Pope Leo XIV's visit (8–11 Nov), including a mass in Palermo on 9 November, may force the opening to shift, promising a definitive calendar \"shortly\". As of 13 October no revised schedule has been published — every official calendar still shows the original 10 November start and 12 December final. Tennium, which runs the Argentina Open tennis event, joins as the AAP's commercial partner.",
         source: { name: "Olé — Triple Crown presentation", url: "https://www.ole.com.ar/poli/triple-corona-presentacion-polo-papa_0_bVHiXV3a8D.html" }
       }
     ]
@@ -101,15 +101,29 @@ window.POLO_DATA = {
     },
     {
       region: "arg", regionLabel: "Argentina", kind: "Live", kindClass: "live",
-      date: "6 Oct 2026",
-      title: "Tortugas opens with Ellerstina rolling over the debutants",
+      date: "6–13 Oct 2026", accent: "var(--clay)",
+      title: "Rain has all but stopped the Tortugas Open in its tracks",
       body:
-        "Facundo Pieres was the difference in Ellerstina Indios Chapaleufú's 18-10 win over La Zeta Kazak, scoring the clinching goal and assisting Gonzalo Pieres for the last. Half-time read 9-4. Sapo Caset and Lorenzo Chavanne were the pick of a spirited Kazak debut.",
+        "Eight days in, the 86th Tortugas Open has managed two matches. Both Zone B fixtures were washed out on 7 October; the AAP then announced there would be no polo on the 10th either, the grounds having failed to recover. On 13 October players walked the field about seventy minutes before the throw-in and the match was called off a quarter of an hour before the start — \"the important thing here is to protect the players and the horses, and of course avoid taking risks\". Zone B has yet to play a chukka. The final is still scheduled for 7 November.",
+      sources: [
+        { name: "Olé", url: "https://www.ole.com.ar/polo/suspension-lluvia-ver-abierto-tortugas_0_0kOBYlWeZG.html" },
+        { name: "Pololine", url: "https://www.pololine.com/es/noticias/las-lluvias-hicieron-que-se-postergue-la-segunda-fecha-del-86o-abierto-de-tortugas/" }
+      ]
+    },
+    {
+      region: "arg", regionLabel: "Argentina", kind: "Result", kindClass: "result",
+      date: "6 Oct 2026",
+      title: "Tortugas opening day: Ellerstina and La Ensenada take Zone A honours",
+      body:
+        "Facundo Pieres top-scored with 10 in Ellerstina Indios Chapaleufú's 18-10 win over La Zeta Kazak — a match that put brothers Facundo and Gonzalo against their brother Nicolás, playing for Kazak. In the other Zone A opener, La Ensenada beat Don Ercole 17-13, Jerónimo del Carril and Diego Cavanagh the standouts. La Natividad La Dolfina had the bye. These remain the only two results in the tournament.",
       score: [
         { team: "Ellerstina Indios Chapaleufú", goals: "18", win: true },
         { team: "La Zeta Kazak",                goals: "10" }
       ],
-      sources: [{ name: "Prensa Polo", url: "https://prensapolo.com/fr/2026/10/06/ellerstina-indios-chapaleufu-tortugas/" }]
+      sources: [
+        { name: "Prensa Polo — fixtures", url: "https://prensapolo.com/abierto-tortugas/" },
+        { name: "Olé", url: "https://www.ole.com.ar/polo/suspension-lluvia-ver-abierto-tortugas_0_0kOBYlWeZG.html" }
+      ]
     },
     {
       region: "arg", regionLabel: "Argentina", kind: "Scheduling", kindClass: "hot",
@@ -243,11 +257,35 @@ window.POLO_DATA = {
       sources: [{ name: "Polo Biz — Tim Kelly profile", url: "https://www.polobiz.com/post/a-new-era-for-us-polo-led-by-tim-kelly" }]
     },
     {
+      region: "usa", regionLabel: "United States", kind: "Result", kindClass: "result",
+      date: "11 Oct 2026",
+      title: "Amasé edge the East Coast Open Women's at New Bridge",
+      body:
+        "An 11-10 win over Sirius in Aiken to close the 14–18 goal championship, with Hazel Jackson anchoring the Amasé lineup alongside Izzy Brocket, Olivia Uechtritz and Aspen Tinto. No MVP or Best Playing Pony award could be found in any published source. The exact final date is given variously as 11 or 12 October; the pre-announced schedule said the 11th.",
+      score: [
+        { team: "Amasé", goals: "11", win: true },
+        { team: "Sirius", goals: "10" }
+      ],
+      sources: [{ name: "USPA tournament page", url: "https://www.uspolo.org/calendar/tournaments/east-coast-open-womens-polo-championship" }]
+    },
+    {
+      region: "usa", regionLabel: "United States", kind: "Result", kindClass: "result",
+      date: "4 Oct 2026",
+      title: "Icon Global take the Association Cup in overtime",
+      body:
+        "A 9-8 win over Red Mare at New Bridge, unbeaten through the tournament. Tommy Collingwood, Charlie Caldwell, Olivia Uechtritz and Steve Tipler played for the winners; Team USPA's Hope Arellano was in the Red Mare lineup. Well corroborated, though the USPA's own page could not be read directly.",
+      score: [
+        { team: "Icon Global / Tipler Law", goals: "9", win: true },
+        { team: "Red Mare",                 goals: "8" }
+      ],
+      sources: [{ name: "USPA tournament page", url: "https://www.uspolo.org/calendar/tournaments/association-cup" }]
+    },
+    {
       region: "usa", regionLabel: "United States", kind: "Arena", kindClass: "",
       date: "13–18 Oct 2026",
       title: "The Women's Arena Open says goodbye to OC Polo Club",
       body:
-        "A $15,000 purse and the last edition at the California venue before the tournament moves to Brookshire Arena, Texas in 2027. Marissa Wells, a 10-goal arena player and three-time champion, is in the field.",
+        "A $15,000 purse and the final edition at the California venue before the tournament moves to Brookshire Arena, Texas in 2027. Marissa Wells, at 10 goals the highest-rated woman in US arena polo and a three-time champion, is playing for Ursulus Polo. Play began today; no results yet.",
       sources: [{ name: "Polohub", url: "https://polohub.net/uspa-womens-arena-open-2026-a-landmark-moment-for-womens-arena-polo/" }]
     },
     {
@@ -363,12 +401,15 @@ window.POLO_DATA = {
       ]
     },
     {
-      region: "europe", regionLabel: "FIP", kind: "Governance", kindClass: "hot",
-      date: "Postponed to 2027",
-      title: "The FIP World Championship has lost its host",
+      region: "europe", regionLabel: "FIP", kind: "Confirmed", kindClass: "hot",
+      date: "4–14 Feb 2027",
+      title: "The FIP World Championship has a home at last: Uruguay",
       body:
-        "The XIII World Polo Championship was awarded to the UAE for December 2026 — the first in Asia — across Ghantoot, Al Habtoor, Desert Palm and Dubai Polo Club. In May the UAE confirmed it could not host. The HPA now states the event is expected in early 2027 at a venue pending confirmation, with Uruguay reported as the likely replacement. The USA qualified from Zone A, beating Mexico 6-4 in Wellington.",
-      sources: [{ name: "Hurlingham Polo Association", url: "https://hurlinghampolo.com/usa-advances-to-xiii-fip-world-polo-championship/" }]
+        "After the UAE withdrew in May from hosting the XIII World Polo Championship, FIP has confirmed the event for Uruguay in 2027 — Punta del Este and José Ignacio, 4–14 February, in the 10–14 goal bracket. Switzerland became the latest qualifier, winning the Zone C playoff at Chantilly unbeaten ahead of France, with England third and out. They join Spain (defending champions), Uruguay (hosts) and the USA, who beat Mexico 6-4 in Wellington. Argentina and Peru play their South American qualifier in Lima on 15 and 17 October.",
+      sources: [
+        { name: "FIP (official)", url: "https://www.fippolo.com/post/switzerland-qualifies-for-the-xiii-fip-world-polo-championship" },
+        { name: "Asociación Uruguaya de Polo calendar", url: "https://polohub.net/es/noticias/la-asociacion-uruguaya-de-polo-publica-el-calendario-completo-de-su-te" }
+      ]
     },
     {
       region: "europe", regionLabel: "England", kind: "Safety", kindClass: "",
@@ -445,15 +486,12 @@ window.POLO_DATA = {
 
     /* ---- ASIA ---- */
     {
-      region: "asia", regionLabel: "India", kind: "Live", kindClass: "live",
-      date: "Oct – Nov 2026",
-      title: "India's season is running right now, from Rambagh to the Jaipur Polo Ground",
+      region: "asia", regionLabel: "India", kind: "Heritage", kindClass: "",
+      date: "2026 season",
+      title: "The Army still carries Indian polo",
       body:
-        "The Rajasthan Polo Club's autumn block at the Rambagh grounds runs to 25 October, with the Sawai Man Guard Cup, Gen Amar Singh Kanota Cup and B.M. Birla Cup reported in sequence. The Delhi fall season — including the Northern India Polo Championship — runs 12 October to 22 November. Specific cup dates are reported rather than federation-confirmed.",
-      sources: [
-        { name: "Indian Polo Association", url: "https://www.ipa.co.in/" },
-        { name: "Jaipur season listing", url: "https://ilovejaipur.city/events/jaipur-polo-season-2026/" }
-      ]
+        "The Indian Polo Association, founded 1892, shares its registered office with 'B' Squadron, 61 Cavalry at Delhi Cantt — a neat illustration of how far the Army underwrites the grounds, horses and player pipeline. The Calcutta Polo Club, the world's oldest, still runs the Ezra Cup.",
+      sources: [{ name: "Indian Polo Association", url: "https://www.ipa.co.in/" }]
     },
     {
       region: "asia", regionLabel: "India", kind: "Result", kindClass: "result",
@@ -501,12 +539,27 @@ window.POLO_DATA = {
 
     /* ---- AFRICA ---- */
     {
-      region: "africa", regionLabel: "Ghana", kind: "Live", kindClass: "live",
-      date: "6–11 Oct 2026",
-      title: "Accra is playing the Trustees' Cup this week — and Pink October follows",
+      region: "africa", regionLabel: "Ghana", kind: "Result", kindClass: "result",
+      date: "10 Oct 2026",
+      title: "Dad's Army take the Accra Trustees' Cup by half a goal",
       body:
-        "West Africa's busiest published calendar has the Trustees' Cup running right now, a Run For A Cure pink polo day on 10 October, and the international Pink Polo Trophy from 27 October to 1 November, raising funds for breast-cancer screening and education in Ghana. The Accra vs. Lagos Cup follows in November.",
-      sources: [{ name: "Accra Polo Club", url: "https://accrapoloclub.com/tournaments/" }]
+        "A 6-5½ win over DSGHOB in the final, Dantani Sahnoon named MVP and presented with his trophy by Accra Polo Club trustees chairman Alhaji Yusif Ibrahim. Brothers Edward and Gerald Osei Boakye Jnr, with South African Rattray, led a late DSGHOB charge that fell just short. The Pink Polo Trophy, which funds breast-cancer screening and education in Ghana, follows from 27 October.",
+      score: [
+        { team: "Dad's Army / African Polistas", goals: "6",  win: true },
+        { team: "DSGHOB",                        goals: "5½" }
+      ],
+      sources: [{ name: "MyJoyOnline", url: "https://www.myjoyonline.com/dads-army-african-polistas-crowned-champions-of-2026-accra-polo-club-trustees-cup/" }]
+    },
+    {
+      region: "asia", regionLabel: "India", kind: "Live", kindClass: "live",
+      date: "Oct – Nov 2026",
+      title: "Jaipur rolls on and Delhi opens its season",
+      body:
+        "Team Jaipur took the Sawai Man Guard Cup 9-7 over Team Sternhagen, Padmanabh Singh and Martin Carlos Donovan leading the way — reported by the Indian press but not independently confirmable. The Gen Amar Singh Kanota Cup is being played now (12–18 October) and the B.M. Birla Cup follows 19–25 October. The Delhi season opened on 12 October and runs to 22 November.",
+      sources: [
+        { name: "Times of India", url: "https://timesofindia.indiatimes.com/city/jaipur/annual-sept-jaipur-polo-season-2026-padmanabh-singh-martin-carlos-donovan-help-team-jaipur-beat-team-sternhagen-9-7-in-sawai-man-guard-cup-final/articleshow/134859504.cms" },
+        { name: "Indian Polo Association", url: "https://www.ipa.co.in/" }
+      ]
     },
     {
       region: "africa", regionLabel: "South Africa", kind: "Result", kindClass: "result",
@@ -587,6 +640,12 @@ window.POLO_DATA = {
 
   /* ---------------- RESULTS LEDGER ---------------- */
   results: [
+    { date: "11 Oct 2026", event: "East Coast Open Women's C'ship", region: "USA · Aiken", winner: "Amasé", score: "11–10", runnerUp: "Sirius",
+      sources: [{ name: "USPA", url: "https://www.uspolo.org/calendar/tournaments/east-coast-open-womens-polo-championship" }] },
+    { date: "10 Oct 2026", event: "Accra Trustees' Cup",            region: "Ghana",        winner: "Dad's Army / African Polistas", score: "6–5½", runnerUp: "DSGHOB",
+      sources: [{ name: "MyJoyOnline", url: "https://www.myjoyonline.com/dads-army-african-polistas-crowned-champions-of-2026-accra-polo-club-trustees-cup/" }] },
+    { date: "4 Oct 2026",  event: "Association Cup",                region: "USA · Aiken",  winner: "Icon Global / Tipler Law", score: "9–8 OT", runnerUp: "Red Mare",
+      sources: [{ name: "USPA", url: "https://www.uspolo.org/calendar/tournaments/association-cup" }] },
     { date: "4 Oct 2026",  event: "133rd Hurlingham Open",            region: "Argentina",    winner: "La Natividad La Dolfina", score: "18–14",  runnerUp: "La Hache Polo Team",
       sources: [{ name: "Pololine", url: "https://www.pololine.com/news/133rd-hurlingham-open-la-natividad-la-dolfina-did-it-again/" }] },
     { date: "13 Sept 2026", event: "East Coast Open",                 region: "USA · Greenwich", winner: "IGEA", score: "10–9",  runnerUp: "FlyHouse",
@@ -649,24 +708,25 @@ window.POLO_DATA = {
 
   /* ---------------- FORWARD CALENDAR ---------------- */
   calendar: [
-    { when: "Now – 11 Oct",      title: "Trustees' Cup, Accra",               detail: "Running this week in Ghana, followed by a Run For A Cure pink polo day on 10 October.",          where: "Accra Polo Club, Ghana" },
-    { when: "Now – 7 Nov",       title: "86th Tortugas Open",                 detail: "Second leg of the Triple Crown, ten teams for the first time. Final Saturday 7 November.", where: "Tortugas CC, Argentina" },
-    { when: "9 & 11 Oct",        title: "East Coast Open Women's Championship", detail: "Semi-finals 9 October, final 11 October. Round-robin already under way.",                 where: "New Bridge, Aiken SC" },
-    { when: "10 Oct",            title: "Dubai season opening",               detail: "Al Habtoor Polo Resort opens 2026-27, with the Ladies Charity Cup following on 24 October.",     where: "Al Habtoor, UAE" },
-    { when: "13–18 Oct",         title: "USPA Women's Arena Open",            detail: "$15,000 purse and the final edition at this venue before it moves to Texas in 2027.",       where: "OC Polo Club, California" },
-    { when: "17 Oct",            title: "SPC Outreach Polo Tournament",       detail: "Singapore Polo Club's community tournament and carnival.",                                      where: "Singapore" },
-    { when: "Oct – Nov",         title: "Indian season in full swing",        detail: "Jaipur's autumn block runs to 25 October; the Delhi season runs 12 October – 22 November.",  where: "Jaipur & Delhi, India" },
-    { when: "27 Oct – 1 Nov",    title: "Pink Polo Trophy",                   detail: "Accra's international signature event, funding breast-cancer screening and education.",         where: "Accra, Ghana" },
-    { when: "10 Nov – 12 Dec",   title: "133rd Argentine Open",               detail: "Palermo. Opening dates provisional pending the papal visit; final 12 December.",            where: "Campo Argentino de Polo" },
-    { when: "11 Nov",            title: "La Dolfina annual breeding auction", detail: "Remate Anual de Cría. Advertised date, not independently confirmed.",                       where: "La Dolfina Polo Club" },
-    { when: "24–28 Nov",         title: "UAE National Day Cup",               detail: "8–10 goal. Part of the Gulf's published season calendar.",                                      where: "Al Habtoor, UAE" },
-    { when: "26 Nov – 11 Dec",   title: "X Argentine Women's Open",           detail: "La Dolfina field a 38-goal side led by Mía Cambiaso and Hope Arellano.",                    where: "Argentina" },
-    { when: "27 Dec",            title: "Wellington season opens",            detail: "National Polo Center's 2026-27 season runs through to 2 May 2027.",                        where: "Wellington, Florida" },
-    { when: "22–24 Jan 2027",    title: "42nd Snow Polo World Cup",           detail: "Confirmed dates on the frozen lake.",                                                      where: "St. Moritz, Switzerland" },
-    { when: "23 Jan – 6 Feb 2027", title: "Dubai Silver Cup",                 detail: "20 goal. The Gold Cup follows 3–20 March 2027.",                                              where: "Al Habtoor, UAE" },
-    { when: "27 Jan – 18 Apr 2027", title: "The 2027 Gauntlet of Polo",       detail: "C.V. Whitney Cup, USPA Gold Cup and U.S. Open in sequence.",                               where: "Wellington, Florida" },
-    { when: "Early 2027",        title: "XIII FIP World Polo Championship",   detail: "Postponed from the UAE. Host pending confirmation; Uruguay reported as likely.",            where: "Venue TBC" },
-    { when: "24 Apr – 2 May 2027", title: "II FIP Women's World Championship", detail: "First time the United States has hosted it.",                                             where: "National Polo Center, FL" }
+    { when: "15 Oct",            title: "Tortugas — Zone B finally starts", detail: "Híper Polo Club vs La Aguada, and Las Monjitas vs La Irenita. Zone B's first polo of the tournament, weather permitting.", where: "Tortugas CC, Argentina" },
+    { when: "15 & 17 Oct",       title: "FIP South American qualifier",   detail: "Argentina vs Peru at Lima Polo Club for a place at the 2027 World Championship.",                   where: "Lima, Peru" },
+    { when: "16 Oct",            title: "La Natividad La Dolfina debut",  detail: "The 40-goal champions open their Tortugas campaign against La Zeta Kazak; Ellerstina meet La Ensenada.", where: "Tortugas CC, Argentina" },
+    { when: "17 Oct",            title: "SPC Outreach Polo Tournament",   detail: "Singapore Polo Club's community tournament and carnival.",                                          where: "Singapore" },
+    { when: "18 Oct",            title: "USPA Women's Arena Open final",  detail: "Closing the last edition at OC Polo Club before the move to Texas.",                                where: "OC Polo Club, California" },
+    { when: "19–25 Oct",         title: "B.M. Birla Cup",                 detail: "Closing Jaipur's autumn block at the Rambagh grounds.",                                             where: "Jaipur, India" },
+    { when: "24 Oct",            title: "Ladies Charity Cup",             detail: "Part of Al Habtoor's newly opened 2026-27 Gulf season.",                                            where: "Al Habtoor, UAE" },
+    { when: "27 Oct – 1 Nov",    title: "Pink Polo Trophy",               detail: "Accra's international signature event, funding breast-cancer screening and education.",              where: "Accra, Ghana" },
+    { when: "7 Nov",             title: "86th Tortugas Open final",       detail: "Still officially scheduled, though only two matches have been played in the first eight days.",      where: "Tortugas CC, Argentina" },
+    { when: "10 Nov – 12 Dec",   title: "133rd Argentine Open",           detail: "Palermo. Opening dates still unconfirmed pending the papal visit; final 12 December.",               where: "Campo Argentino de Polo" },
+    { when: "11 Nov",            title: "La Dolfina annual breeding auction", detail: "Remate Anual de Cría. Advertised date, not independently confirmed.",                            where: "La Dolfina Polo Club" },
+    { when: "24–28 Nov",         title: "UAE National Day Cup",           detail: "8–10 goal. Part of the Gulf's published season calendar.",                                           where: "Al Habtoor, UAE" },
+    { when: "26 Nov – 11 Dec",   title: "X Argentine Women's Open",       detail: "La Dolfina field a 38-goal side led by Mía Cambiaso and Hope Arellano.",                             where: "Argentina" },
+    { when: "27 Dec",            title: "Wellington season opens",        detail: "National Polo Center's 2026-27 season runs through to 2 May 2027.",                                 where: "Wellington, Florida" },
+    { when: "22–24 Jan 2027",    title: "42nd Snow Polo World Cup",       detail: "Confirmed dates on the frozen lake.",                                                               where: "St. Moritz, Switzerland" },
+    { when: "23 Jan – 6 Feb 2027", title: "Dubai Silver Cup",             detail: "20 goal. The Gold Cup follows 3–20 March 2027.",                                                    where: "Al Habtoor, UAE" },
+    { when: "4–14 Feb 2027",     title: "XIII FIP World Championship",    detail: "Confirmed for Uruguay — Punta del Este and José Ignacio, 10–14 goal.",                              where: "Punta del Este, Uruguay" },
+    { when: "27 Jan – 18 Apr 2027", title: "The 2027 Gauntlet of Polo",   detail: "C.V. Whitney Cup, USPA Gold Cup and U.S. Open in sequence.",                                        where: "Wellington, Florida" },
+    { when: "24 Apr – 2 May 2027", title: "II FIP Women's World Championship", detail: "First time the United States has hosted it.",                                                  where: "National Polo Center, FL" }
   ],
 
   /* ---------------- WHERE TO WATCH ---------------- */
@@ -768,5 +828,265 @@ window.POLO_DATA = {
     { initials: "RM", name: "Royal Malaysian Polo Assn.", kind: "Federation · Malaysia",
       what: "The Cahaya Cup and a full domestic calendar under royal patronage, including a dedicated RMPA Ladies Tournament.",
       links: [ { label: "Site", url: "https://rmpa.org.my/" } ] }
-  ]
+  ],
+
+  /* ---------------- DRILLS ---------------- */
+  drills: {
+    primer: [
+      { label: "Session length",
+        text: "No governing body publishes a standard. Coaching practice points to roughly 30–45 minutes of active work — about three drills of 10–15 minutes. Quality of form beats volume." },
+      { label: "The pony comes first",
+        text: "The HPA caps a pony at 7½ minutes of play without a 10-minute break, 15 minutes total, and no more than three chukkas in a day. No equivalent numeric rule was found in the USPA's accessible documents." },
+      { label: "Practice is not a lesser activity",
+        text: "\"Despite the prevailing attitude that practice games don't count, they do indeed count… the stress to the horse is just as severe as if he were in a high-goal competition.\" — Dr Paul Wollenman DVM, in the USPA's own welfare guidelines." },
+      { label: "Check your jurisdiction",
+        text: "USPA and HPA equipment rules genuinely differ — helmets, eye protection, knee pads and spurs all diverge. Neither is a global standard. Play to the rules of the body you are registered with." }
+    ],
+
+    categories: [
+      { id: "sb",      label: "Stick & ball (solo)" },
+      { id: "mounted", label: "Mounted & group" },
+      { id: "ground",  label: "Off the horse" }
+    ],
+
+    shots: [
+      { shot: "Offside forehand", side: "Right (offside)",
+        ball: "Ahead of or beside the horse, struck forward in the direction of travel",
+        key: "The foundational shot. Power comes from hip and shoulder rotation — the swing is a pendulum, not an arm muscle movement." },
+      { shot: "Nearside forehand", side: "Left (nearside)",
+        ball: "Beside the horse's left side, struck forward; the mallet reaches across the body and stays in the right hand",
+        key: "Keep the arm extended. Hitting with a bent elbow loses most of the power and control." },
+      { shot: "Offside backhand", side: "Right (offside)",
+        ball: "Beside or behind the horse, struck backward",
+        key: "Can be angled open to the right or tailed to the left. A straight-back version is usually ineffective if an opponent is directly behind you." },
+      { shot: "Nearside backhand", side: "Left (nearside)",
+        ball: "Beside the horse's left side, struck backward",
+        key: "Lock the right knee into the saddle before rotating. This is the hardest of the four and will destabilise you without that fixed pivot." }
+    ],
+
+    items: [
+      /* ---- SOLO STICK & BALL ---- */
+      {
+        cat: "sb", catLabel: "Stick & ball", level: "beginner", levelLabel: "Beginner",
+        name: "Three-Shot Line",
+        develops: "Shot-to-shot transitions, distance control and accuracy.",
+        steps: [
+          "Start at one end of the practice area.",
+          "Hit a half-swing offside forehand.",
+          "Hit a full-swing offside forehand.",
+          "Hit an offside backhand.",
+          "Turn the pony and repeat coming back, aiming at a chosen target each time — another ball, a divot, or the goal.",
+          "Build the distance gradually as the strike stays clean."
+        ],
+        fault: "Hitting without a fixed target or distance goal, so the session becomes repetition rather than progression.",
+        sources: [{ name: "Riverlands Polo Academy", url: "https://www.riverlandspolo.com/post/polo-drills" }]
+      },
+      {
+        cat: "sb", catLabel: "Stick & ball", level: "intermediate", levelLabel: "Intermediate",
+        name: "Circle Drill",
+        develops: "Ball control while turning — the skill that wins the ball and turns it toward goal in a chukka.",
+        steps: [
+          "Ride a circle, clockwise.",
+          "Tap the ball lightly on the inside of the circle, using offside half-swings only.",
+          "Make contact earlier than you would for a full swing, and keep the horse further off the ball than usual.",
+          "Roll forward in the saddle — chest toward the pommel, chin toward the ball.",
+          "Turn the pony's head slightly inward as you go."
+        ],
+        fault: "Using full-swing timing and distance instead of the earlier, lighter contact this drill is built around.",
+        sources: [{ name: "Riverlands Polo Academy", url: "https://www.riverlandspolo.com/post/polo-drills" }]
+      },
+      {
+        cat: "sb", catLabel: "Stick & ball", level: "beginner", levelLabel: "Beginner",
+        name: "Zig-Zag Drill",
+        develops: "Balanced shot-making on both sides of the horse — and it forces you to practise the nearside, which most players neglect.",
+        steps: [
+          "Start at one end of the field.",
+          "Hit an offside forehand diagonally across to the nearside.",
+          "Hit a nearside forehand diagonally back across to the offside.",
+          "Continue zig-zagging down the field.",
+          "Use an imaginary line from the horse's head to the goal as your guide — every hit should cross it."
+        ],
+        fault: "Drifting off the centreline, so the diagonals stop being true crossings and the nearside work gets easier than it should be.",
+        sources: [{ name: "Riverlands Polo Academy", url: "https://www.riverlandspolo.com/post/polo-drills" }]
+      },
+      {
+        cat: "sb", catLabel: "Stick & ball", level: "advanced", levelLabel: "Advanced",
+        name: "Neck Shot (under the neck)",
+        develops: "Redirecting the ball across the front of the horse without turning the pony.",
+        steps: [
+          "For a 90° shot, position the ball opposite your right foot. Move it further across, toward the horse's left foot, for more angle.",
+          "Bring the mallet forward — do not take it back as you would for a forehand.",
+          "Drop the mallet head onto the ball. The angle comes from the arc of the swing, not from rolling the wrists.",
+          "If you are running with the ball, briefly check the horse to shorten its stride so the mallet clears the front legs."
+        ],
+        fault: "Taking the mallet back as for an ordinary forehand and then trying to swing it around the front of the horse. The ball will always go where the arc of the swing goes.",
+        sources: [
+          { name: "GavSays Polo Academy", url: "https://www.gavsayspoloacademy.com/blog/how-to-play-a-neckshot" },
+          { name: "Julio Arellano (9 goals), PoloSkilz", url: "https://www.youtube.com/watch?v=ojh-q9jQpzI" }
+        ]
+      },
+      {
+        cat: "sb", catLabel: "Stick & ball", level: "advanced", levelLabel: "Advanced",
+        name: "Tail Shot (under the tail)",
+        develops: "An escape option when you are being ridden off from behind.",
+        steps: [
+          "Let the ball sit clearly behind the horse — never directly underneath it.",
+          "Strike backward, using the shot as the way out of the ride-off."
+        ],
+        fault: "Positioning the ball directly beneath the horse rather than clearly behind it.",
+        sources: [{ name: "Polo Rules Test", url: "https://www.polorulestest.com/tactics/neckshot/" }]
+      },
+
+      /* ---- MOUNTED / GROUP ---- */
+      {
+        cat: "mounted", catLabel: "Mounted", level: "all", levelLabel: "All levels",
+        name: "Who Has It? — line of the ball and right of way",
+        develops: "Instant recognition of who holds the right of way. This is the single most important safety judgement in polo and the source of most fouls.",
+        accent: "var(--clay)",
+        steps: [
+          "The coach rolls a ball down a line.",
+          "Two or more riders approach from different angles — one following, one meeting at an angle, one parallel.",
+          "Before any contact, freeze. Each rider must say who currently has the right of way, based on their position and angle to the line of the ball.",
+          "Change the line mid-drill and repeat.",
+          "Progress to full speed, with a whistle for any unsafe entry."
+        ],
+        fault: "Assuming whoever hit the ball last owns the right of way. Both the HPA and USPA rulebooks explicitly reject this.",
+        sources: [
+          { name: "HPA Rules (Blue Book), Rules 27–28", url: "https://hpa-polo.co.uk/download/2021-HPA-Rules-ONLY-Book.pdf" },
+          { name: "USPA 2026 Rulebook, Rules 23–24", url: "https://issuu.com/uspoloassociation/docs/2026_uspa_rulebook" }
+        ]
+      },
+      {
+        cat: "mounted", catLabel: "Mounted", level: "intermediate", levelLabel: "Intermediate",
+        name: "Progressive Ride-Off Ladder",
+        develops: "Safe shoulder-to-shoulder contact at matched speed.",
+        steps: [
+          "Pair similar-sized riders on calm ponies.",
+          "At a walk, practise gentle shoulder-to-shoulder contact with elbows tucked in.",
+          "Progress to trot, then canter — but only once contact stays level and the speeds genuinely match.",
+          "Add a ball, so the attacker must keep possession while being legally displaced."
+        ],
+        fault: "Riding in ahead of or behind the opponent's saddle rather than squarely shoulder-to-shoulder. The USPA names this as dangerous riding.",
+        sources: [
+          { name: "HPA Rule 31", url: "https://hpa-polo.co.uk/download/2021-HPA-Rules-ONLY-Book.pdf" },
+          { name: "USPA Rule 26", url: "https://issuu.com/uspoloassociation/docs/2026_uspa_rulebook" }
+        ]
+      },
+      {
+        cat: "mounted", catLabel: "Mounted", level: "intermediate", levelLabel: "Intermediate",
+        name: "Hook-and-Hit Partner Drill",
+        develops: "Legal hook timing and positioning.",
+        steps: [
+          "Two riders at a walk or jog, one with the ball.",
+          "The attacker takes practice swings at a slow-rolling ball.",
+          "The defender rides the correct side — the same side as the ball, or directly behind — and times a hook at the start of the swing, keeping the mallet below shoulder height.",
+          "Call a foul on any hook that crosses under, over or across the pony's body, or that targets a nearside backhand wind-up."
+        ],
+        fault: "Reaching across or under the opponent's pony to hook. Illegal under both codes and a genuine way to bring a horse down.",
+        sources: [
+          { name: "HPA Rule 30", url: "https://hpa-polo.co.uk/download/2021-HPA-Rules-ONLY-Book.pdf" },
+          { name: "USPA Rule 28", url: "https://issuu.com/uspoloassociation/docs/2026_uspa_rulebook" }
+        ]
+      },
+      {
+        cat: "mounted", catLabel: "Mounted", level: "all", levelLabel: "All levels",
+        name: "Line-Out Reaction Drill",
+        develops: "Legal positioning at the throw-in and reaction speed off the bowl.",
+        steps: [
+          "Two teams or pairs line up on their own side, at least five yards from the thrower.",
+          "The thrower bowls the ball underhand and hard, along the ground between the ranks.",
+          "No player may move or engage until the ball has left the thrower's hand.",
+          "First fair contact establishes the new line of the ball."
+        ],
+        fault: "Jumping the throw — moving or making contact before the ball leaves the thrower's hand. Illegal under both codes.",
+        sources: [
+          { name: "HPA Rule 6c", url: "https://hpa-polo.co.uk/download/2021-HPA-Rules-ONLY-Book.pdf" },
+          { name: "USPA Rule 20", url: "https://issuu.com/uspoloassociation/docs/2026_uspa_rulebook" }
+        ]
+      },
+      {
+        cat: "mounted", catLabel: "Mounted", level: "intermediate", levelLabel: "Intermediate",
+        name: "Penalty Distance Ladder",
+        develops: "Pressure-proof goal-scoring from the codified penalty distances.",
+        steps: [
+          "Set markers at increasing distances — 20, 25, 30, 35, 40 yards, building to the full 60-yard penalty.",
+          "Hit from the shortest distance until you are consistently clean.",
+          "Every time you miss, go all the way back to the shortest distance. Not back one increment — all the way.",
+          "Advance only once a distance is reliably clean."
+        ],
+        fault: "Goal-orientation — staring at the posts instead of focusing on the swing. Look up, see the goal, then think swing thoughts, not goal thoughts.",
+        sources: [{ name: "GavSays Polo Academy", url: "https://www.gavsayspoloacademy.com/blog/how-to-practice-penalties" }]
+      },
+
+      /* ---- OFF THE HORSE ---- */
+      {
+        cat: "ground", catLabel: "Off the horse", level: "beginner", levelLabel: "Beginner",
+        name: "Wooden Horse Practice",
+        develops: "Grip, swing mechanics and all four basic shots, without tiring a live pony or having to control one at the same time.",
+        steps: [
+          "Fit a saddle to the stationary wooden horse, housed in its hitting cage.",
+          "Place balls beside it for repeated striking.",
+          "Work each of the four basic shots for form, not power.",
+          "Move to slow stick and ball on a live pony only once the form is consistent."
+        ],
+        fault: "Treating it as a power and repetition exercise rather than a form exercise — and skipping the nearside shots, which are naturally under-practised in a one-handed game.",
+        sources: [
+          { name: "Black Bears Polo Club", url: "http://blackbearspolo.com/facilities/wooden-horse/" },
+          { name: "Wooden Polo Pony", url: "https://www.woodenpolopony.com/specs/" }
+        ]
+      },
+      {
+        cat: "ground", catLabel: "Off the horse", level: "all", levelLabel: "All levels",
+        name: "Mallet Grip Drill",
+        develops: "Precision control without tension — the grip that lets the mallet swing as a free pendulum.",
+        steps: [
+          "Rest the mallet handle diagonally across the palm, at the base of the fingers.",
+          "Keep the thumb and index finger relaxed and guiding, not squeezing.",
+          "Let the middle finger act as the structural pivot.",
+          "With eyes closed, consciously relax and tense each finger in turn to feel the difference between firm and flexible."
+        ],
+        fault: "Over-gripping with the hand and forearm. A muscled grip stops the mallet swinging freely and kills both power and touch.",
+        sources: [{ name: "Prof. Eduardo Amaya, Pololine", url: "https://www.pololine.com/articles/the-grip-on-the-mallet-and-the-function-of-each-finger/" }]
+      }
+    ],
+
+    note:
+      "<b>On these drills.</b> Every drill above is drawn from a named coach, club or governing-body rulebook, linked on each card. " +
+      "The mounted drills are built on rule text quoted directly from the HPA Blue Book and the USPA Rulebook; the specific choreography is a " +
+      "reasonable coaching structure around those rules rather than a canonical published lesson plan. " +
+      "Two things commonly found online are deliberately <b>not</b> included: a solo figure-of-eight ball-control drill, which no primary source " +
+      "could confirm, and the term \"polo pit\" — the apparatus is a <b>wooden horse</b>, housed in a hitting cage. " +
+      "<b>Equipment rules differ by jurisdiction.</b> The HPA requires eye protection for all players (since March 2026) and mandates knee pads; " +
+      "the USPA requires eye protection only for under-18s and does not mandate knee pads in its rule text. Helmet standards differ too — " +
+      "NOCSAE ND050 for the USPA, a wider list of equestrian standards for the HPA. Check the rules of the body you are registered with."
+  },
+
+  /* ---------------- FORUM ---------------- */
+  forum: {
+    giscus: {
+      repo:       "marhall15/polo-dashboard",
+      repoId:     "R_kgDOVIlvnQ",
+      category:   "General",
+      categoryId: "DIC_kwDOVIlvnc4DIXfd",
+      term:       "The Global Polo Dashboard — Forum"
+    },
+    rules: [
+      { title: "Keep it about the game",
+        text: "Results, tactics, horses, tack, drills, travel and the season. Off-topic threads get moved." },
+      { title: "Horses first",
+        text: "Welfare questions are always on topic. Advice that puts a pony at risk will be removed." },
+      { title: "Say who you are",
+        text: "Club, handicap and region help people give you a useful answer — especially on drills and kit." },
+      { title: "Disagree well",
+        text: "Polo is opinionated and that is half the fun. Argue the point, not the person." }
+    ],
+    topics: [
+      { label: "💬 General",        url: "https://github.com/marhall15/polo-dashboard/discussions/categories/general" },
+      { label: "❓ Q&A",            url: "https://github.com/marhall15/polo-dashboard/discussions/categories/q-a" },
+      { label: "💡 Ideas",          url: "https://github.com/marhall15/polo-dashboard/discussions/categories/ideas" },
+      { label: "🏆 Show and tell",  url: "https://github.com/marhall15/polo-dashboard/discussions/categories/show-and-tell" },
+      { label: "📣 Announcements",  url: "https://github.com/marhall15/polo-dashboard/discussions/categories/announcements" },
+      { label: "🗳️ Polls",          url: "https://github.com/marhall15/polo-dashboard/discussions/categories/polls" }
+    ]
+  }
 };

@@ -223,15 +223,190 @@
     });
   }
 
+  /* ---------- Drills ---------- */
+  let activeDrillCat = "all";
+
+  function renderDrillIntro() {
+    const wrap = $("#drillIntro");
+    (D.drills.primer || []).forEach((f) => {
+      const n = el("div", "drill-fact");
+      n.appendChild(el("h4", null, esc(f.label)));
+      n.appendChild(el("p", null, esc(f.text)));
+      wrap.appendChild(n);
+    });
+    const note = $("#drillsNote");
+    if (note && D.drills.note) note.innerHTML = D.drills.note;
+  }
+
+  function drillCard(d) {
+    const n = el("article", "drill");
+    n.style.setProperty("--accent", d.accent || "var(--turf)");
+
+    const top = el("div", "drill-top");
+    top.appendChild(el("span", "lvl " + (d.level || "all"), esc(d.levelLabel || d.level)));
+    top.appendChild(el("span", "tag", esc(d.catLabel)));
+    n.appendChild(top);
+
+    n.appendChild(el("h3", null, esc(d.name)));
+
+    const dev = el("div", "drill-develops");
+    dev.appendChild(el("b", null, "Develops"));
+    dev.appendChild(document.createTextNode(d.develops));
+    n.appendChild(dev);
+
+    if (d.steps && d.steps.length) {
+      const ol = el("ol", "drill-steps");
+      d.steps.forEach((s) => ol.appendChild(el("li", null, esc(s))));
+      n.appendChild(ol);
+    }
+
+    if (d.fault) {
+      const f = el("div", "fault");
+      f.appendChild(el("b", null, "Common fault"));
+      f.appendChild(document.createTextNode(d.fault));
+      n.appendChild(f);
+    }
+
+    const foot = el("div", "card-foot");
+    (d.sources || []).forEach((s) => {
+      const a = el("a", "src", esc(s.name));
+      a.href = s.url; a.target = "_blank"; a.rel = "noopener";
+      foot.appendChild(a);
+    });
+    n.appendChild(foot);
+    return n;
+  }
+
+  function paintDrills() {
+    const wrap = $("#drills");
+    wrap.innerHTML = "";
+    const list = D.drills.items.filter(
+      (d) => activeDrillCat === "all" || d.cat === activeDrillCat
+    );
+    if (!list.length) {
+      wrap.appendChild(el("div", "note", "No drills in this category yet."));
+      return;
+    }
+    list.forEach((d) => wrap.appendChild(drillCard(d)));
+  }
+
+  function renderDrillFilters() {
+    const wrap = $("#drillFilters");
+    const cats = [{ id: "all", label: "All drills" }].concat(D.drills.categories);
+    cats.forEach((c) => {
+      const b = el("button", "chip" + (c.id === "all" ? " active" : ""), esc(c.label));
+      b.addEventListener("click", () => {
+        activeDrillCat = c.id;
+        wrap.querySelectorAll(".chip").forEach((x) => x.classList.remove("active"));
+        b.classList.add("active");
+        paintDrills();
+      });
+      wrap.appendChild(b);
+    });
+  }
+
+  function renderShots() {
+    const body = $("#shotsBody");
+    (D.drills.shots || []).forEach((s) => {
+      const tr = el("tr");
+      tr.appendChild(el("td", "shot-name", esc(s.shot)));
+      tr.appendChild(el("td", null, esc(s.side)));
+      tr.appendChild(el("td", null, esc(s.ball)));
+      tr.appendChild(el("td", null, esc(s.key)));
+      body.appendChild(tr);
+    });
+  }
+
+  /* ---------- Forum ---------- */
+  function renderForum() {
+    const rules = $("#forumRules");
+    (D.forum.rules || []).forEach((r) => {
+      const n = el("div", "rule");
+      n.appendChild(el("h4", null, esc(r.title)));
+      n.appendChild(el("p", null, esc(r.text)));
+      rules.appendChild(n);
+    });
+
+    const topics = $("#forumTopics");
+    (D.forum.topics || []).forEach((t) => {
+      const a = el("a", "topic-pill", esc(t.label));
+      a.href = t.url; a.target = "_blank"; a.rel = "noopener";
+      topics.appendChild(a);
+    });
+
+    mountGiscus();
+  }
+
+  function mountGiscus() {
+    const cfg = D.forum.giscus;
+    if (!cfg || !cfg.repoId || !cfg.categoryId) return;
+
+    const mount = $("#giscusMount");
+    const s = document.createElement("script");
+    s.src = "https://giscus.app/client.js";
+    s.async = true;
+    s.crossOrigin = "anonymous";
+    s.setAttribute("data-repo", cfg.repo);
+    s.setAttribute("data-repo-id", cfg.repoId);
+    s.setAttribute("data-category", cfg.category);
+    s.setAttribute("data-category-id", cfg.categoryId);
+    s.setAttribute("data-mapping", "specific");
+    s.setAttribute("data-term", cfg.term || "Polo Dashboard Forum");
+    s.setAttribute("data-reactions-enabled", "1");
+    s.setAttribute("data-emit-metadata", "0");
+    s.setAttribute("data-input-position", "top");
+    s.setAttribute("data-theme", "transparent_dark");
+    s.setAttribute("data-lang", "en");
+    s.setAttribute("data-loading", "lazy");
+
+    // Clear the fallback only once giscus actually renders.
+    const observer = new MutationObserver(() => {
+      if (mount.querySelector("iframe.giscus-frame")) {
+        const fb = $("#giscusFallback");
+        if (fb) fb.remove();
+        observer.disconnect();
+      }
+    });
+    observer.observe(mount, { childList: true, subtree: true });
+
+    mount.appendChild(s);
+
+    // If giscus has not rendered after 8s, keep the fallback and explain why.
+    setTimeout(() => {
+      if (!mount.querySelector("iframe.giscus-frame")) {
+        const fb = $("#giscusFallback");
+        if (fb) {
+          fb.innerHTML =
+            '<p style="margin-bottom:8px">The embedded board could not load.</p>' +
+            '<p style="font-size:12.5px;color:var(--txt-3);margin-bottom:16px">' +
+            "This usually means the giscus app is not yet installed on the repository.</p>";
+          const a = el("a", "btn", "Open the forum on GitHub ↗");
+          a.href = "https://github.com/" + cfg.repo + "/discussions";
+          a.target = "_blank"; a.rel = "noopener";
+          fb.appendChild(a);
+        }
+      }
+    }, 8000);
+  }
+
   /* ---------- Boot ---------- */
   document.addEventListener("DOMContentLoaded", function () {
-    renderMeta();
-    renderCrown();
-    renderFilters();
-    paintStories();
-    renderResults();
-    renderCalendar();
-    renderWatch();
-    renderSources();
+    // Each block is isolated so one missing data section cannot blank the page.
+    const steps = [
+      ["meta",     renderMeta],
+      ["crown",    renderCrown],
+      ["filters",  renderFilters],
+      ["stories",  paintStories],
+      ["results",  renderResults],
+      ["calendar", renderCalendar],
+      ["drills",   () => { renderDrillIntro(); renderDrillFilters(); paintDrills(); renderShots(); }],
+      ["forum",    renderForum],
+      ["watch",    renderWatch],
+      ["sources",  renderSources]
+    ];
+    for (const [name, fn] of steps) {
+      try { fn(); }
+      catch (err) { console.error("[polo-dashboard] failed to render '" + name + "':", err); }
+    }
   });
 })();
