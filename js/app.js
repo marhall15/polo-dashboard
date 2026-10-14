@@ -342,6 +342,33 @@
     if (!cfg || !cfg.repoId || !cfg.categoryId) return;
 
     const mount = $("#giscusMount");
+    const repoUrl = "https://github.com/" + cfg.repo + "/discussions";
+    let settled = false;
+
+    // giscus reports failures (e.g. app not installed on the repo) over
+    // postMessage rather than failing to create its iframe, so listen for
+    // that instead of probing its API — which blocks cross-origin fetch.
+    function onMessage(event) {
+      if (event.origin !== "https://giscus.app") return;
+      const payload = event.data && event.data.giscus;
+      if (!payload || settled) return;
+
+      if (payload.error) {
+        settled = true;
+        window.removeEventListener("message", onMessage);
+        const frame = mount.querySelector("iframe.giscus-frame");
+        if (frame) frame.remove();
+        showForumFallback(mount, repoUrl, payload.error);
+      } else {
+        // Any non-error message from giscus means it rendered successfully.
+        settled = true;
+        window.removeEventListener("message", onMessage);
+        const fb = $("#giscusFallback");
+        if (fb) fb.remove();
+      }
+    }
+    window.addEventListener("message", onMessage);
+
     const s = document.createElement("script");
     s.src = "https://giscus.app/client.js";
     s.async = true;
@@ -351,42 +378,65 @@
     s.setAttribute("data-category", cfg.category);
     s.setAttribute("data-category-id", cfg.categoryId);
     s.setAttribute("data-mapping", "specific");
-    s.setAttribute("data-term", cfg.term || "Polo Dashboard Forum");
+    s.setAttribute("data-term", cfg.term);
     s.setAttribute("data-reactions-enabled", "1");
     s.setAttribute("data-emit-metadata", "0");
     s.setAttribute("data-input-position", "top");
     s.setAttribute("data-theme", "transparent_dark");
     s.setAttribute("data-lang", "en");
-    s.setAttribute("data-loading", "lazy");
-
-    // Clear the fallback only once giscus actually renders.
-    const observer = new MutationObserver(() => {
-      if (mount.querySelector("iframe.giscus-frame")) {
-        const fb = $("#giscusFallback");
-        if (fb) fb.remove();
-        observer.disconnect();
-      }
-    });
-    observer.observe(mount, { childList: true, subtree: true });
-
+    // Eager, not lazy: the timeout below must not fire merely because the
+    // visitor has not yet scrolled down to the forum section.
+    s.setAttribute("data-loading", "eager");
+    s.onerror = function () {
+      if (settled) return;
+      settled = true;
+      showForumFallback(mount, repoUrl, "script failed to load");
+    };
     mount.appendChild(s);
 
-    // If giscus has not rendered after 8s, keep the fallback and explain why.
-    setTimeout(() => {
-      if (!mount.querySelector("iframe.giscus-frame")) {
-        const fb = $("#giscusFallback");
-        if (fb) {
-          fb.innerHTML =
-            '<p style="margin-bottom:8px">The embedded board could not load.</p>' +
-            '<p style="font-size:12.5px;color:var(--txt-3);margin-bottom:16px">' +
-            "This usually means the giscus app is not yet installed on the repository.</p>";
-          const a = el("a", "btn", "Open the forum on GitHub ↗");
-          a.href = "https://github.com/" + cfg.repo + "/discussions";
-          a.target = "_blank"; a.rel = "noopener";
-          fb.appendChild(a);
-        }
-      }
-    }, 8000);
+    // Safety net. If giscus never confirms success, assume it failed — when
+    // the app is not installed it still renders an iframe containing its own
+    // raw error, which we do not want visitors to see.
+    setTimeout(function () {
+      if (settled) return;
+      settled = true;
+      window.removeEventListener("message", onMessage);
+      const frame = mount.querySelector("iframe.giscus-frame");
+      if (frame) frame.remove();
+      showForumFallback(mount, repoUrl, "not installed");
+    }, 10000);
+  }
+
+  function showForumFallback(mount, repoUrl, reason) {
+    const notInstalled = /not installed/i.test(reason || "");
+    let fb = $("#giscusFallback");
+    if (!fb) {
+      fb = el("div", "giscus-fallback");
+      fb.id = "giscusFallback";
+      mount.appendChild(fb);
+    }
+    fb.innerHTML = "";
+
+    const lead = el("p", null,
+      notInstalled
+        ? "The discussion board is live — it just isn't embedded here yet."
+        : "The embedded board could not load."
+    );
+    fb.appendChild(lead);
+
+    const sub = el("p", null,
+      notInstalled
+        ? "Read and post on GitHub Discussions in the meantime."
+        : "You can still read and post on GitHub Discussions."
+    );
+    sub.style.fontSize = "12.5px";
+    sub.style.color = "var(--txt-3)";
+    sub.style.marginBottom = "16px";
+    fb.appendChild(sub);
+
+    const a = el("a", "btn", "Open the forum on GitHub ↗");
+    a.href = repoUrl; a.target = "_blank"; a.rel = "noopener";
+    fb.appendChild(a);
   }
 
   /* ---------- Boot ---------- */
