@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Global Polo Dashboard — World Polo, Region by Region</title>
+<meta name="description" content="A single-page dashboard blog tracking the latest polo from every global region, aggregated from Pololine, the USPA, PoloCam TV, La Dolfina, Los Machitos and the wider polo press.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- ================= TOP BAR ================= -->
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="#top">
+      <span class="brand-mark">🏇</span>
+      <span class="brand-name">The Global Polo <span>Dashboard</span></span>
+    </a>
+    <nav class="topnav">
+      <a href="#crown-sec">Triple Crown</a>
+      <a href="#wire">The Wire</a>
+      <a href="#results-sec">Results</a>
+      <a href="#calendar-sec">Calendar</a>
+      <a href="#watch-sec">Watch</a>
+      <a href="#sources-sec">Sources</a>
+    </nav>
+  </div>
+</header>
+
+<!-- ================= HERO ================= -->
+<div class="wrap" id="top">
+  <div class="hero">
+    <div class="eyebrow">World Polo Briefing · Edition <span id="edition"></span></div>
+    <h1>Every region.<br>Every <em>chukka</em> that mattered.</h1>
+    <p class="hero-sub">
+      A standing dashboard of world polo — the Argentine Triple Crown, the US high-goal
+      calendar, the British and European seasons, the Gulf, Asia, Africa and Oceania —
+      aggregated from the sport's primary press, federations and broadcasters.
+    </p>
+    <div class="hero-meta">
+      <span><b>Updated</b> <span id="updated"></span></span>
+      <span><b>Sources</b> <span id="srcCount"></span> outlets &amp; federations</span>
+      <span><b>Coverage</b> 7 regions</span>
+    </div>
+    <div class="stats" id="stats"></div>
+  </div>
+</div>
+
+<!-- ================= TRIPLE CROWN ================= -->
+<section id="crown-sec">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="sec-title"><span class="n">01</span>The Argentine Triple Crown</div>
+        <p class="sec-desc">
+          The sport's centre of gravity. Three legs decide the world's de facto
+          championship each spring in Buenos Aires — and for 2026 the AAP reversed
+          the running order, sending Hurlingham first and Tortugas second.
+        </p>
+      </div>
+    </div>
+    <div class="crown" id="crown"></div>
+  </div>
+</section>
+
+<!-- ================= THE WIRE ================= -->
+<section id="wire">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="sec-title"><span class="n">02</span>The Wire</div>
+        <p class="sec-desc">
+          Latest filings from every region. Showing <b id="storyCount"></b> stories —
+          filter by region below.
+        </p>
+      </div>
+    </div>
+    <div class="filters" id="filters"></div>
+    <div class="grid grid-3" id="stories"></div>
+  </div>
+</section>
+
+<!-- ================= RESULTS ================= -->
+<section id="results-sec">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="sec-title"><span class="n">03</span>Season Results Ledger</div>
+        <p class="sec-desc">Finals from the 2026 global high-goal calendar, with sourcing.</p>
+      </div>
+    </div>
+    <div class="tbl-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Date</th><th>Event</th><th>Champion</th>
+            <th>Score</th><th>Runner-up</th><th>Source</th>
+          </tr>
+        </thead>
+        <tbody id="resultsBody"></tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CALENDAR ================= -->
+<section id="calendar-sec">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="sec-title"><span class="n">04</span>What's Next</div>
+        <p class="sec-desc">The forward calendar across all regions.</p>
+      </div>
+    </div>
+    <div class="cal" id="calendar"></div>
+  </div>
+</section>
+
+<!-- ================= WATCH ================= -->
+<section id="watch-sec">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="sec-title"><span class="n">05</span>Where To Watch</div>
+        <p class="sec-desc">Broadcasters and streaming platforms by region.</p>
+      </div>
+    </div>
+    <div class="grid grid-3" id="watch"></div>
+  </div>
+</section>
+
+<!-- ================= SOURCES ================= -->
+<section id="sources-sec">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="sec-title"><span class="n">06</span>The Source Desk</div>
+        <p class="sec-desc">
+          Every outlet, federation, club and social feed this dashboard aggregates.
+          Click through to go straight to the primary source.
+        </p>
+      </div>
+    </div>
+    <div class="srcgrid" id="sources"></div>
+    <div style="margin-top:22px">
+      <div class="note">
+        <b>On sourcing.</b> This dashboard aggregates and links to reporting by the outlets
+        above; it does not reproduce their articles. Every result, score and date carries a
+        link to its primary source — follow it for the full story and photography.
+        Items that could not be independently verified at publication are labelled
+        <b>unconfirmed</b> rather than stated as fact.
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <div class="wrap foot-grid">
+    <div>
+      <div style="color:var(--txt-2);font-weight:600;margin-bottom:5px">The Global Polo Dashboard</div>
+      <div>Aggregated world polo coverage · Edition <span id="edition2"></span></div>
+    </div>
+    <div class="foot-links">
+      <a href="https://www.pololine.com/" target="_blank" rel="noopener">Pololine</a>
+      <a href="https://www.uspolo.org/" target="_blank" rel="noopener">USPA</a>
+      <a href="https://polocam.tv/" target="_blank" rel="noopener">PoloCam TV</a>
+      <a href="https://ladolfina.com/" target="_blank" rel="noopener">La Dolfina</a>
+      <a href="https://www.aapolo.com/" target="_blank" rel="noopener">AAP</a>
+      <a href="https://hpa-polo.co.uk/" target="_blank" rel="noopener">HPA</a>
+      <a href="https://www.fippolo.com/" target="_blank" rel="noopener">FIP</a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var e = document.getElementById("edition2");
+    if (e && window.POLO_DATA) e.textContent = window.POLO_DATA.meta.edition;
+  });
+</script>
+</body>
+</html>
