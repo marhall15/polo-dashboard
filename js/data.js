@@ -7,11 +7,11 @@
 window.POLO_DATA = {
 
   meta: {
-    updated: "13 October 2026",
-    edition: "No. 2",
+    updated: "18 October 2026",
+    edition: "No. 3",
     stats: [
-      { n: "2",   l: "Tortugas matches played in 8 days" },
-      { n: "32",  l: "Finals in the 2026 ledger" },
+      { n: "9",   l: "Tortugas matches played in 13 days" },
+      { n: "33",  l: "Finals in the 2026 ledger" },
       { n: "40",  l: "Goals — highest-rated team on earth" },
       { n: "Feb 2027", l: "FIP World Cup — Uruguay, confirmed" },
       { n: "7",   l: "Regions tracked" }
@@ -47,17 +47,17 @@ window.POLO_DATA = {
       },
       {
         name: "86th Tortugas Open",
-        dates: "6 Oct – 7 Nov 2026 · Tortugas Country Club",
+        dates: "6 Oct – 7 Nov 2026 · Tortugas Country Club (currently AAP HQ, Pilar)",
         state: "active",
-        statusLabel: "Live — rained off",
+        statusLabel: "Live — catching up",
         champion: null,
         scoreline: [
-          { team: "Ellerstina Indios Chapaleufú", goals: "18", win: true },
-          { team: "La Zeta Kazak",                goals: "10" }
+          { team: "La Hache Polo Team", goals: "18", win: true },
+          { team: "La Irenita Clinova", goals: "12" }
         ],
         note:
-          "Ten teams for the first time, after the AAP gave both Qualification Tournament winners a Tortugas berth. But the tournament has barely started: only the two opening-day Zone A matches have been played. Rain has wiped out every date since, and on 13 October organisers called a match off fifteen minutes before the throw-in on safety grounds. Zone B — Las Monjitas, La Hache, Híper, La Aguada, La Irenita — has yet to play a single chukka. Next up, weather permitting: Zone B on 15 October, and La Natividad La Dolfina's debut on 16 October.",
-        source: { name: "Olé — rain suspensions", url: "https://www.ole.com.ar/polo/suspension-lluvia-ver-abierto-tortugas_0_0kOBYlWeZG.html" }
+          "Ten teams for the first time, after the AAP gave both Qualification Tournament winners a Tortugas berth. After more than a week lost to rain, play resumed on 15 October — moved from Tortugas Country Club to the AAP's own Alfredo Lalor headquarters in Pilar to find fit ground. Since then: Híper 21-10 La Aguada and La Irenita 14-12 Las Monjitas (15 Oct); Ellerstina Indios Chapaleufú 16-15 La Ensenada, a wild match Ellerstina trailed 7-12 at half-time, and La Natividad La Dolfina 15-14 La Zeta Kazak in their tournament debut (16 Oct); La Hache 18-12 La Irenita (18 Oct), which left four of Zone B's five teams level on 2 points apiece, only La Aguada without a win. Two further 18 October fixtures — La Natividad vs Don Ercole and La Ensenada vs La Zeta Kazak — were played but went unscored in the published match sheet. The next date is Wednesday 21 October. The final is still scheduled for 7 November, though the backlog makes that date increasingly tight.",
+        source: { name: "Pololine — resumption report", url: "https://www.pololine.com/news/the-ressumption-of-the-86th-tortugas-open-saw-hiper-and-la-irenita-victorious/" }
       },
       {
         name: "133rd Argentine Open — Palermo",
@@ -101,13 +101,13 @@ window.POLO_DATA = {
     },
     {
       region: "arg", regionLabel: "Argentina", kind: "Live", kindClass: "live",
-      date: "6–13 Oct 2026", accent: "var(--clay)",
-      title: "Rain has all but stopped the Tortugas Open in its tracks",
+      date: "15–18 Oct 2026", accent: "var(--clay)",
+      title: "Tortugas finds dry ground in Pilar and starts catching up on its backlog",
       body:
-        "Eight days in, the 86th Tortugas Open has managed two matches. Both Zone B fixtures were washed out on 7 October; the AAP then announced there would be no polo on the 10th either, the grounds having failed to recover. On 13 October players walked the field about seventy minutes before the throw-in and the match was called off a quarter of an hour before the start — \"the important thing here is to protect the players and the horses, and of course avoid taking risks\". Zone B has yet to play a chukka. The final is still scheduled for 7 November.",
+        "After more than a week lost to rain, the 86th Tortugas Open resumed on 15 October — relocated from Tortugas Country Club to the AAP's Alfredo Lalor headquarters in Pilar, where the pitches had held up. Results since: Híper 21-10 La Aguada (Torito Ruiz Jorba scored 10) and La Irenita 14-12 Las Monjitas on the 15th; Ellerstina Indios Chapaleufú's extraordinary 16-15 comeback over La Ensenada, having trailed 7-12 at the break, plus La Natividad La Dolfina's tight 15-14 debut win over La Zeta Kazak on the 16th; and La Hache's 18-12 win over La Irenita on the 18th, which left four of Zone B's five teams level on two points. Two further matches on the 18th — La Natividad vs. Don Ercole and La Ensenada vs. La Zeta Kazak — were played but published without a final score. Next date: Wednesday 21 October. The final remains scheduled for 7 November.",
       sources: [
-        { name: "Olé", url: "https://www.ole.com.ar/polo/suspension-lluvia-ver-abierto-tortugas_0_0kOBYlWeZG.html" },
-        { name: "Pololine", url: "https://www.pololine.com/es/noticias/las-lluvias-hicieron-que-se-postergue-la-segunda-fecha-del-86o-abierto-de-tortugas/" }
+        { name: "Pololine — resumption report", url: "https://www.pololine.com/news/the-ressumption-of-the-86th-tortugas-open-saw-hiper-and-la-irenita-victorious/" },
+        { name: "Polohub — La Hache 18-12", url: "https://polohub.net/es/noticias/la-hache-polo-team-supera-a-la-irenita-clinova-18-12-en-la-cuarta" }
       ]
     },
     {
@@ -281,12 +281,19 @@ window.POLO_DATA = {
       sources: [{ name: "USPA tournament page", url: "https://www.uspolo.org/calendar/tournaments/association-cup" }]
     },
     {
-      region: "usa", regionLabel: "United States", kind: "Arena", kindClass: "",
-      date: "13–18 Oct 2026",
-      title: "The Women's Arena Open says goodbye to OC Polo Club",
+      region: "usa", regionLabel: "United States", kind: "Result", kindClass: "result",
+      date: "18 Oct 2026",
+      title: "Ursulus edge Buchalter in a high-scoring send-off for OC Polo Club",
       body:
-        "A $15,000 purse and the final edition at the California venue before the tournament moves to Brookshire Arena, Texas in 2027. Marissa Wells, at 10 goals the highest-rated woman in US arena polo and a three-time champion, is playing for Ursulus Polo. Play began today; no results yet.",
-      sources: [{ name: "Polohub", url: "https://polohub.net/uspa-womens-arena-open-2026-a-landmark-moment-for-womens-arena-polo/" }]
+        "A $15,000 purse and the final edition at the California venue before the tournament moves to Brookshire Arena, Texas in 2027. Ursulus Polo, led by 10-goaler Marissa Wells, beat Buchalter 31-29 in Sunday's final — a very high-scoring arena finish even by the format's standards. Reported via the USPA's own scoreboard, which could not be independently read directly; no secondary outlet carrying box-score detail could be found.",
+      score: [
+        { team: "Ursulus Polo", goals: "31", win: true },
+        { team: "Buchalter",    goals: "29" }
+      ],
+      sources: [
+        { name: "Polohub", url: "https://polohub.net/uspa-womens-arena-open-2026-a-landmark-moment-for-womens-arena-polo/" },
+        { name: "USPA scoreboard", url: "https://www.uspolo.org/tournaments/scoreboard" }
+      ]
     },
     {
       region: "usa", regionLabel: "United States", kind: "Anniversary", kindClass: "",
@@ -405,10 +412,11 @@ window.POLO_DATA = {
       date: "4–14 Feb 2027",
       title: "The FIP World Championship has a home at last: Uruguay",
       body:
-        "After the UAE withdrew in May from hosting the XIII World Polo Championship, FIP has confirmed the event for Uruguay in 2027 — Punta del Este and José Ignacio, 4–14 February, in the 10–14 goal bracket. Switzerland became the latest qualifier, winning the Zone C playoff at Chantilly unbeaten ahead of France, with England third and out. They join Spain (defending champions), Uruguay (hosts) and the USA, who beat Mexico 6-4 in Wellington. Argentina and Peru play their South American qualifier in Lima on 15 and 17 October.",
+        "After the UAE withdrew in May from hosting the XIII World Polo Championship, FIP has confirmed the event for Uruguay in 2027 — Punta del Este and José Ignacio, 4–14 February, in the 10–14 goal bracket. Switzerland became the latest qualifier, winning the Zone C playoff at Chantilly unbeaten ahead of France, with England third and out. They join Spain (defending champions), Uruguay (hosts) and the USA, who beat Mexico 6-4 in Wellington. Argentina's South American Zone B series against Peru, played as two four-chukka test matches at Lima Polo Club on 15 and 17 October, went right to the wire: Argentina won the first leg 7-6, then lost the second 6½-6 (Peru took a half-goal handicap credit), leaving Argentina Polo Team ahead by half a goal on aggregate. The AAP says it is now awaiting FIP's ruling on whether that margin is enough for direct qualification, or whether Argentina must instead play off against the winner of the parallel Chile-Brazil series.",
       sources: [
         { name: "FIP (official)", url: "https://www.fippolo.com/post/switzerland-qualifies-for-the-xiii-fip-world-polo-championship" },
-        { name: "Asociación Uruguaya de Polo calendar", url: "https://polohub.net/es/noticias/la-asociacion-uruguaya-de-polo-publica-el-calendario-completo-de-su-te" }
+        { name: "Asociación Uruguaya de Polo calendar", url: "https://polohub.net/es/noticias/la-asociacion-uruguaya-de-polo-publica-el-calendario-completo-de-su-te" },
+        { name: "AAP — Lima result", url: "https://www.aapolo.com/index.php/noticias/detalle/9291" }
       ]
     },
     {
@@ -551,13 +559,18 @@ window.POLO_DATA = {
       sources: [{ name: "MyJoyOnline", url: "https://www.myjoyonline.com/dads-army-african-polistas-crowned-champions-of-2026-accra-polo-club-trustees-cup/" }]
     },
     {
-      region: "asia", regionLabel: "India", kind: "Live", kindClass: "live",
+      region: "asia", regionLabel: "India", kind: "Result", kindClass: "result",
       date: "Oct – Nov 2026",
-      title: "Jaipur rolls on and Delhi opens its season",
+      title: "Jaipur takes the Kanota Cup too, and Delhi's season is under way",
       body:
-        "Team Jaipur took the Sawai Man Guard Cup 9-7 over Team Sternhagen, Padmanabh Singh and Martin Carlos Donovan leading the way — reported by the Indian press but not independently confirmable. The Gen Amar Singh Kanota Cup is being played now (12–18 October) and the B.M. Birla Cup follows 19–25 October. The Delhi season opened on 12 October and runs to 22 November.",
+        "Team Jaipur took the Sawai Man Guard Cup 9-7 over Team Sternhagen, Padmanabh Singh and Martin Carlos Donovan leading the way — reported by the Indian press but not independently confirmable. Jaipur followed up by winning the Gen Amar Singh Kanota Cup 7-4 over Mayfair Polo Team at the Rajasthan Polo Club, Padmanabh Singh scoring four, with Angad Kalaan and South African Lance Watson adding the rest. The B.M. Birla Cup follows 19–25 October. The Delhi season opened on 12 October and runs to 22 November.",
+      score: [
+        { team: "Jaipur Polo Team", goals: "7", win: true },
+        { team: "Mayfair Polo Team", goals: "4" }
+      ],
       sources: [
         { name: "Times of India", url: "https://timesofindia.indiatimes.com/city/jaipur/annual-sept-jaipur-polo-season-2026-padmanabh-singh-martin-carlos-donovan-help-team-jaipur-beat-team-sternhagen-9-7-in-sawai-man-guard-cup-final/articleshow/134859504.cms" },
+        { name: "News18 — Kanota Cup", url: "https://www.news18.com/sports/hh-maharaja-padmanabh-singh-stars-as-jaipur-polo-clinch-kanota-cup-title-ws-l-9605741.html" },
         { name: "Indian Polo Association", url: "https://www.ipa.co.in/" }
       ]
     },
@@ -640,6 +653,8 @@ window.POLO_DATA = {
 
   /* ---------------- RESULTS LEDGER ---------------- */
   results: [
+    { date: "18 Oct 2026", event: "USPA Women's Arena Open",        region: "USA · California", winner: "Ursulus Polo", score: "31–29", runnerUp: "Buchalter",
+      sources: [{ name: "USPA scoreboard", url: "https://www.uspolo.org/tournaments/scoreboard" }] },
     { date: "11 Oct 2026", event: "East Coast Open Women's C'ship", region: "USA · Aiken", winner: "Amasé", score: "11–10", runnerUp: "Sirius",
       sources: [{ name: "USPA", url: "https://www.uspolo.org/calendar/tournaments/east-coast-open-womens-polo-championship" }] },
     { date: "10 Oct 2026", event: "Accra Trustees' Cup",            region: "Ghana",        winner: "Dad's Army / African Polistas", score: "6–5½", runnerUp: "DSGHOB",
@@ -708,15 +723,11 @@ window.POLO_DATA = {
 
   /* ---------------- FORWARD CALENDAR ---------------- */
   calendar: [
-    { when: "15 Oct",            title: "Tortugas — Zone B finally starts", detail: "Híper Polo Club vs La Aguada, and Las Monjitas vs La Irenita. Zone B's first polo of the tournament, weather permitting.", where: "Tortugas CC, Argentina" },
-    { when: "15 & 17 Oct",       title: "FIP South American qualifier",   detail: "Argentina vs Peru at Lima Polo Club for a place at the 2027 World Championship.",                   where: "Lima, Peru" },
-    { when: "16 Oct",            title: "La Natividad La Dolfina debut",  detail: "The 40-goal champions open their Tortugas campaign against La Zeta Kazak; Ellerstina meet La Ensenada.", where: "Tortugas CC, Argentina" },
-    { when: "17 Oct",            title: "SPC Outreach Polo Tournament",   detail: "Singapore Polo Club's community tournament and carnival.",                                          where: "Singapore" },
-    { when: "18 Oct",            title: "USPA Women's Arena Open final",  detail: "Closing the last edition at OC Polo Club before the move to Texas.",                                where: "OC Polo Club, California" },
+    { when: "21 Oct",            title: "Tortugas — Zone B's delayed sixth date", detail: "Catching up on the rain backlog at the AAP's Pilar headquarters, not Tortugas CC.", where: "AAP HQ, Pilar, Argentina" },
     { when: "19–25 Oct",         title: "B.M. Birla Cup",                 detail: "Closing Jaipur's autumn block at the Rambagh grounds.",                                             where: "Jaipur, India" },
     { when: "24 Oct",            title: "Ladies Charity Cup",             detail: "Part of Al Habtoor's newly opened 2026-27 Gulf season.",                                            where: "Al Habtoor, UAE" },
     { when: "27 Oct – 1 Nov",    title: "Pink Polo Trophy",               detail: "Accra's international signature event, funding breast-cancer screening and education.",              where: "Accra, Ghana" },
-    { when: "7 Nov",             title: "86th Tortugas Open final",       detail: "Still officially scheduled, though only two matches have been played in the first eight days.",      where: "Tortugas CC, Argentina" },
+    { when: "7 Nov",             title: "86th Tortugas Open final",       detail: "Still officially scheduled, though a week-plus of rain has pushed zone play into a mid-week catch-up at AAP HQ.", where: "Tortugas CC, Argentina" },
     { when: "10 Nov – 12 Dec",   title: "133rd Argentine Open",           detail: "Palermo. Opening dates still unconfirmed pending the papal visit; final 12 December.",               where: "Campo Argentino de Polo" },
     { when: "11 Nov",            title: "La Dolfina annual breeding auction", detail: "Remate Anual de Cría. Advertised date, not independently confirmed.",                            where: "La Dolfina Polo Club" },
     { when: "24–28 Nov",         title: "UAE National Day Cup",           detail: "8–10 goal. Part of the Gulf's published season calendar.",                                           where: "Al Habtoor, UAE" },
