@@ -7,10 +7,10 @@
 window.POLO_DATA = {
 
   meta: {
-    updated: "18 October 2026",
-    edition: "No. 3",
+    updated: "19 October 2026",
+    edition: "No. 4",
     stats: [
-      { n: "9",   l: "Tortugas matches played in 13 days" },
+      { n: "8",   l: "Tortugas matches played in 13 days" },
       { n: "33",  l: "Finals in the 2026 ledger" },
       { n: "40",  l: "Goals — highest-rated team on earth" },
       { n: "Feb 2027", l: "FIP World Cup — Uruguay, confirmed" },
@@ -52,12 +52,12 @@ window.POLO_DATA = {
         statusLabel: "Live — catching up",
         champion: null,
         scoreline: [
-          { team: "La Hache Polo Team", goals: "18", win: true },
+          { team: "La Hache Polo Team", goals: "19", win: true },
           { team: "La Irenita Clinova", goals: "12" }
         ],
         note:
-          "Ten teams for the first time, after the AAP gave both Qualification Tournament winners a Tortugas berth. After more than a week lost to rain, play resumed on 15 October — moved from Tortugas Country Club to the AAP's own Alfredo Lalor headquarters in Pilar to find fit ground. Since then: Híper 21-10 La Aguada and La Irenita 14-12 Las Monjitas (15 Oct); Ellerstina Indios Chapaleufú 16-15 La Ensenada, a wild match Ellerstina trailed 7-12 at half-time, and La Natividad La Dolfina 15-14 La Zeta Kazak in their tournament debut (16 Oct); La Hache 18-12 La Irenita (18 Oct), which left four of Zone B's five teams level on 2 points apiece, only La Aguada without a win. Two further 18 October fixtures — La Natividad vs Don Ercole and La Ensenada vs La Zeta Kazak — were played but went unscored in the published match sheet. The next date is Wednesday 21 October. The final is still scheduled for 7 November, though the backlog makes that date increasingly tight.",
-        source: { name: "Pololine — resumption report", url: "https://www.pololine.com/news/the-ressumption-of-the-86th-tortugas-open-saw-hiper-and-la-irenita-victorious/" }
+          "Ten teams for the first time, after the AAP gave both Qualification Tournament winners a Tortugas berth. After more than a week lost to rain, play resumed on 15 October — moved from Tortugas Country Club to the AAP's own Alfredo Lalor headquarters in Pilar to find fit ground. Since then: Híper 21-10 La Aguada and La Irenita 14-12 Las Monjitas (15 Oct); Ellerstina Indios Chapaleufú 16-15 La Ensenada, a wild match Ellerstina trailed 7-12 at half-time, and La Natividad La Dolfina 15-14 La Zeta Kazak in their tournament debut (16 Oct). Zone B's second round closed out on 18 October: Las Monjitas squeezed past Híper 16-15 in a match decided in the last chukka, and La Hache beat La Irenita 19-12 — both teams unbeaten going in, and La Hache's first win of its tournament debut. (An earlier report of this match put the score at 18-12; Pololine's and Polohub's full match reports both confirm 19-12.) Zone A continues on Monday 19 October with La Natividad La Dolfina vs. Don Ercole and La Ensenada vs. La Zeta Kazak. The final is still scheduled for 7 November, though the backlog makes that date increasingly tight.",
+        source: { name: "Pololine — Las Monjitas and La Hache victorious", url: "https://www.pololine.com/news/86th-tortugas-open-las-monjitas-and-la-hache-victorious/" }
       },
       {
         name: "133rd Argentine Open — Palermo",
@@ -67,8 +67,8 @@ window.POLO_DATA = {
         champion: null,
         scoreline: null,
         note:
-          "The Cathedral. Dates remain provisional: AAP president Benjamín Araya said Pope Leo XIV's visit (8–11 Nov), including a mass in Palermo on 9 November, may force the opening to shift, promising a definitive calendar \"shortly\". As of 13 October no revised schedule has been published — every official calendar still shows the original 10 November start and 12 December final. Tennium, which runs the Argentina Open tennis event, joins as the AAP's commercial partner.",
-        source: { name: "Olé — Triple Crown presentation", url: "https://www.ole.com.ar/poli/triple-corona-presentacion-polo-papa_0_bVHiXV3a8D.html" }
+          "The Cathedral. The scheduling worry has eased: the Vatican's official itinerary for Pope Leo XIV's 8–11 November Argentina visit, published in September, places his Palermo mass at the Monumento de los Españoles at 11:30 on Monday 9 November — the day before Palermo's scheduled 10 November opening, not on top of it. The AAP has issued no revised calendar and none was needed; every official fixture still shows the original 10 November start and 12 December final. Tennium, which runs the Argentina Open tennis event, joins as the AAP's commercial partner.",
+        source: { name: "Infobae — papal itinerary confirmed", url: "https://www.infobae.com/sociedad/2026/09/21/se-confirmo-la-agenda-del-papa-en-argentina-el-lunes-9-a-las-1130-sera-la-misa-multitudinaria-en-palermo/" }
       }
     ]
   },
@@ -104,10 +104,11 @@ window.POLO_DATA = {
       date: "15–18 Oct 2026", accent: "var(--clay)",
       title: "Tortugas finds dry ground in Pilar and starts catching up on its backlog",
       body:
-        "After more than a week lost to rain, the 86th Tortugas Open resumed on 15 October — relocated from Tortugas Country Club to the AAP's Alfredo Lalor headquarters in Pilar, where the pitches had held up. Results since: Híper 21-10 La Aguada (Torito Ruiz Jorba scored 10) and La Irenita 14-12 Las Monjitas on the 15th; Ellerstina Indios Chapaleufú's extraordinary 16-15 comeback over La Ensenada, having trailed 7-12 at the break, plus La Natividad La Dolfina's tight 15-14 debut win over La Zeta Kazak on the 16th; and La Hache's 18-12 win over La Irenita on the 18th, which left four of Zone B's five teams level on two points. Two further matches on the 18th — La Natividad vs. Don Ercole and La Ensenada vs. La Zeta Kazak — were played but published without a final score. Next date: Wednesday 21 October. The final remains scheduled for 7 November.",
+        "After more than a week lost to rain, the 86th Tortugas Open resumed on 15 October — relocated from Tortugas Country Club to the AAP's Alfredo Lalor headquarters in Pilar, where the pitches had held up. Results since: Híper 21-10 La Aguada (Torito Ruiz Jorba scored 10) and La Irenita 14-12 Las Monjitas on the 15th; Ellerstina Indios Chapaleufú's extraordinary 16-15 comeback over La Ensenada, having trailed 7-12 at the break, plus La Natividad La Dolfina's tight 15-14 debut win over La Zeta Kazak on the 16th. Zone B's second round closed on the 18th: Las Monjitas edged Híper 16-15 in a match settled in the last chukka, and La Hache beat La Irenita 19-12 on its tournament debut — both sides unbeaten going in. (An earlier report of that match circulated a score of 18-12; Pololine's and Polohub's full match accounts both confirm 19-12.) Zone A continues on Monday 19 October with La Natividad La Dolfina vs. Don Ercole and La Ensenada vs. La Zeta Kazak. The final remains scheduled for 7 November.",
       sources: [
-        { name: "Pololine — resumption report", url: "https://www.pololine.com/news/the-ressumption-of-the-86th-tortugas-open-saw-hiper-and-la-irenita-victorious/" },
-        { name: "Polohub — La Hache 18-12", url: "https://polohub.net/es/noticias/la-hache-polo-team-supera-a-la-irenita-clinova-18-12-en-la-cuarta" }
+        { name: "Pololine — Las Monjitas and La Hache victorious", url: "https://www.pololine.com/news/86th-tortugas-open-las-monjitas-and-la-hache-victorious/" },
+        { name: "Polohub — La Hache 19-12", url: "https://polohub.net/es/noticias/la-hache-debuta-en-el-abierto-de-tortugas-con-una-victoria-por-19-12" },
+        { name: "Polohub — Las Monjitas 16-15", url: "https://polohub.net/es/noticias/las-monjitas-supera-a-hiper-polo-16-15-en-un-partido-que-se-definio" }
       ]
     },
     {
@@ -115,7 +116,7 @@ window.POLO_DATA = {
       date: "6 Oct 2026",
       title: "Tortugas opening day: Ellerstina and La Ensenada take Zone A honours",
       body:
-        "Facundo Pieres top-scored with 10 in Ellerstina Indios Chapaleufú's 18-10 win over La Zeta Kazak — a match that put brothers Facundo and Gonzalo against their brother Nicolás, playing for Kazak. In the other Zone A opener, La Ensenada beat Don Ercole 17-13, Jerónimo del Carril and Diego Cavanagh the standouts. La Natividad La Dolfina had the bye. These remain the only two results in the tournament.",
+        "Facundo Pieres top-scored with 10 in Ellerstina Indios Chapaleufú's 18-10 win over La Zeta Kazak — a match that put brothers Facundo and Gonzalo against their brother Nicolás, playing for Kazak. In the other Zone A opener, La Ensenada beat Don Ercole 17-13, Jerónimo del Carril and Diego Cavanagh the standouts. La Natividad La Dolfina had the bye. The opening-day results — now well superseded by six further matches across both zones — are recorded here for the archive.",
       score: [
         { team: "Ellerstina Indios Chapaleufú", goals: "18", win: true },
         { team: "La Zeta Kazak",                goals: "10" }
@@ -126,12 +127,12 @@ window.POLO_DATA = {
       ]
     },
     {
-      region: "arg", regionLabel: "Argentina", kind: "Scheduling", kindClass: "hot",
+      region: "arg", regionLabel: "Argentina", kind: "Scheduling", kindClass: "",
       date: "Nov 2026",
-      title: "A papal visit is about to move the Argentine Open",
+      title: "The papal visit won't clash with Palermo's opening after all",
       body:
-        "Pope Leo XIV visits Argentina 8–11 November. The open-air mass lands at the Monumento de los Españoles, effectively next door to the Campo Argentino de Polo, in the same window Palermo was due to open. The AAP has confirmed it must adjust the opening dates; the revised schedule had not been published at the time of writing.",
-      sources: [{ name: "Olé", url: "https://www.ole.com.ar/poli/triple-corona-presentacion-polo-papa_0_bVHiXV3a8D.html" }]
+        "Pope Leo XIV's four-day Argentina visit (8–11 November) had raised the possibility of a date clash with Palermo. The Vatican's official itinerary, published in September, places his Monumento de los Españoles mass — effectively next door to the Campo Argentino de Polo — at 11:30 on Monday 9 November, the day before Palermo's scheduled 10 November opening. The AAP has not published, and does not appear to need, a revised calendar; every official fixture still shows the original 10 November start and 12 December final.",
+      sources: [{ name: "Infobae — papal itinerary confirmed", url: "https://www.infobae.com/sociedad/2026/09/21/se-confirmo-la-agenda-del-papa-en-argentina-el-lunes-9-a-las-1130-sera-la-misa-multitudinaria-en-palermo/" }]
     },
     {
       region: "arg", regionLabel: "Argentina", kind: "Handicaps", kindClass: "",
@@ -488,8 +489,12 @@ window.POLO_DATA = {
       date: "2026 edition",
       title: "Qatar builds a waterfront tournament — and its first women's team",
       body:
-        "Polo AlMarsa, staged at Old Doha Port, is Qatar's first waterfront polo event; Team Lusail won the inaugural Championship Cup with players from Qatar, Argentina and Chile, and the event took four golds at the Qatar Event Show Awards. The 2026 edition is reported to introduce Qatar's first female polo team. Dates unconfirmed at the time of writing.",
-      sources: [{ name: "Polo AlMarsa", url: "https://poloalmarsa.com/" }]
+        "Polo AlMarsa, staged at Old Doha Port, is Qatar's first waterfront polo event; Team Lusail won the inaugural Championship Cup with players from Qatar, Argentina and Chile, and the event took four golds at the Qatar Event Show Awards. The 2026 edition is now confirmed for 10–12 December at Old Doha Port, and will introduce Qatar's first women's polo team — the roster has not yet been named.",
+      sources: [
+        { name: "Polo AlMarsa", url: "https://poloalmarsa.com/" },
+        { name: "Qatar Tribune — women's team confirmed", url: "https://www.qatar-tribune.com/article/252004/nation/four-golds-among-seven-event-show-prizes-for-polo-almarsa" },
+        { name: "ILoveQatar.net — 2026 dates", url: "https://www.iloveqatar.net/events/sports/polo-almarsa-qatar-2026" }
+      ]
     },
 
     /* ---- ASIA ---- */
@@ -723,15 +728,16 @@ window.POLO_DATA = {
 
   /* ---------------- FORWARD CALENDAR ---------------- */
   calendar: [
-    { when: "21 Oct",            title: "Tortugas — Zone B's delayed sixth date", detail: "Catching up on the rain backlog at the AAP's Pilar headquarters, not Tortugas CC.", where: "AAP HQ, Pilar, Argentina" },
+    { when: "19 Oct",            title: "Tortugas — Zone A's delayed third date", detail: "La Natividad La Dolfina vs. Don Ercole, and La Ensenada vs. La Zeta Kazak, at the AAP's Pilar headquarters, not Tortugas CC.", where: "AAP HQ, Pilar, Argentina" },
     { when: "19–25 Oct",         title: "B.M. Birla Cup",                 detail: "Closing Jaipur's autumn block at the Rambagh grounds.",                                             where: "Jaipur, India" },
     { when: "24 Oct",            title: "Ladies Charity Cup",             detail: "Part of Al Habtoor's newly opened 2026-27 Gulf season.",                                            where: "Al Habtoor, UAE" },
     { when: "27 Oct – 1 Nov",    title: "Pink Polo Trophy",               detail: "Accra's international signature event, funding breast-cancer screening and education.",              where: "Accra, Ghana" },
     { when: "7 Nov",             title: "86th Tortugas Open final",       detail: "Still officially scheduled, though a week-plus of rain has pushed zone play into a mid-week catch-up at AAP HQ.", where: "Tortugas CC, Argentina" },
-    { when: "10 Nov – 12 Dec",   title: "133rd Argentine Open",           detail: "Palermo. Opening dates still unconfirmed pending the papal visit; final 12 December.",               where: "Campo Argentino de Polo" },
+    { when: "10 Nov – 12 Dec",   title: "133rd Argentine Open",           detail: "Palermo. Opening dates confirmed unchanged — the Pope's 9 November Palermo mass falls the day before the 10 November opening; final 12 December.", where: "Campo Argentino de Polo" },
     { when: "11 Nov",            title: "La Dolfina annual breeding auction", detail: "Remate Anual de Cría. Advertised date, not independently confirmed.",                            where: "La Dolfina Polo Club" },
     { when: "24–28 Nov",         title: "UAE National Day Cup",           detail: "8–10 goal. Part of the Gulf's published season calendar.",                                           where: "Al Habtoor, UAE" },
     { when: "26 Nov – 11 Dec",   title: "X Argentine Women's Open",       detail: "La Dolfina field a 38-goal side led by Mía Cambiaso and Hope Arellano.",                             where: "Argentina" },
+    { when: "10–12 Dec",         title: "Polo AlMarsa Qatar",             detail: "Confirmed dates for the waterfront tournament's second edition, debuting Qatar's first women's polo team.", where: "Old Doha Port, Qatar" },
     { when: "27 Dec",            title: "Wellington season opens",        detail: "National Polo Center's 2026-27 season runs through to 2 May 2027.",                                 where: "Wellington, Florida" },
     { when: "22–24 Jan 2027",    title: "42nd Snow Polo World Cup",       detail: "Confirmed dates on the frozen lake.",                                                               where: "St. Moritz, Switzerland" },
     { when: "23 Jan – 6 Feb 2027", title: "Dubai Silver Cup",             detail: "20 goal. The Gold Cup follows 3–20 March 2027.",                                                    where: "Al Habtoor, UAE" },
