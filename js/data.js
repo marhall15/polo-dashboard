@@ -7,10 +7,10 @@
 window.POLO_DATA = {
 
   meta: {
-    updated: "21 October 2026",
-    edition: "No. 5",
+    updated: "22 October 2026",
+    edition: "No. 6",
     stats: [
-      { n: "10",  l: "Tortugas matches played in 14 days" },
+      { n: "12",  l: "Tortugas matches played in 16 days" },
       { n: "33",  l: "Finals in the 2026 ledger" },
       { n: "40",  l: "Goals — highest-rated team on earth" },
       { n: "Feb 2027", l: "FIP World Cup — Uruguay, confirmed" },
@@ -47,17 +47,17 @@ window.POLO_DATA = {
       },
       {
         name: "86th Tortugas Open",
-        dates: "6 Oct – 7 Nov 2026 · Tortugas Country Club (zone play relocated to AAP HQ, Pilar)",
+        dates: "6 Oct – 7 Nov 2026 · Tortugas Country Club",
         state: "active",
-        statusLabel: "Live — catching up",
+        statusLabel: "Live — back at Tortugas CC",
         champion: null,
         scoreline: [
-          { team: "La Natividad La Dolfina", goals: "27", win: true },
-          { team: "Don Ercole",              goals: "7" }
+          { team: "La Hache",   goals: "30", win: true },
+          { team: "La Aguada",  goals: "11" }
         ],
         note:
-          "Ten teams for the first time, after the AAP gave both Qualification Tournament winners a Tortugas berth. After more than a week lost to rain, play resumed on 15 October — moved from Tortugas Country Club to the AAP's own Alfredo Lalor headquarters in Pilar to find fit ground. Since then: Híper 21-10 La Aguada and La Irenita 14-12 Las Monjitas (15 Oct); Ellerstina Indios Chapaleufú 16-15 La Ensenada, a wild match Ellerstina trailed 7-12 at half-time, and La Natividad La Dolfina 15-14 La Zeta Kazak in their tournament debut (16 Oct); Las Monjitas 16-15 Híper and La Hache 19-12 La Irenita closed Zone B's second round (18 Oct). Zone A's delayed third date followed on 19 October, still at AAP HQ: La Natividad La Dolfina routed Don Ercole 27-7 — a 20-goal margin and the team's 17th straight win since its merger, Camilo \"Jeta\" Castagnola scoring 11 — while La Zeta Kazak beat La Ensenada 14-11 for its first win of the tournament, Lorenzo Chavanne top-scoring with 8. Play returns to Tortugas Country Club itself on Wednesday 21 October: La Hache vs. La Aguada and Híper vs. La Irenita. The final is still scheduled for 7 November, though the backlog makes that date increasingly tight.",
-        source: { name: "Pololine — La Natividad La Dolfina and La Zeta Kazak victorious", url: "https://www.pololine.com/es/noticias/86o-abierto-de-tortugas-la-natividad-la-dolfina-sigue-a-paso-firme-y-la-zeta-kazak-se-quedo-con-su-primera-victoria/" }
+          "Ten teams for the first time, after the AAP gave both Qualification Tournament winners a Tortugas berth. After more than a week lost to rain, play resumed on 15 October at the AAP's own Alfredo Lalor headquarters in Pilar, before returning to Tortugas Country Club itself on 21 October. Results since the restart: Híper 21-10 La Aguada and La Irenita 14-12 Las Monjitas (15 Oct); Ellerstina Indios Chapaleufú 16-15 La Ensenada, a wild match Ellerstina trailed 7-12 at half-time, and La Natividad La Dolfina 15-14 La Zeta Kazak in their tournament debut (16 Oct); Las Monjitas 16-15 Híper and La Hache 19-12 La Irenita closed Zone B's second round (18 Oct); La Natividad La Dolfina routed Don Ercole 27-7 and La Zeta Kazak beat La Ensenada 14-11 for its first win of the tournament (19 Oct). Back at Tortugas CC on 21 October, La Hache beat La Aguada 30-11 in a 41-goal shootout — one of the highest-scoring matches in the tournament's history, Benjamin Panelo scoring 12 — and La Irenita beat Híper 21-14 behind five goals from Vizcacha MacDonough, for its second win of the tournament. Zone play continues Saturday 24 October: Ellerstina Indios Chapaleufú vs. Don Ercole and La Natividad La Dolfina vs. La Ensenada. The final remains scheduled for 7 November, though the rain backlog still makes that date tight.",
+        source: { name: "Pololine — La Hache and La Irenita victorious", url: "https://www.pololine.com/news/86th-tortugas-open-la-hache-and-la-irenita-claimed-impressive-wins/" }
       },
       {
         name: "133rd Argentine Open — Palermo",
@@ -101,11 +101,12 @@ window.POLO_DATA = {
     },
     {
       region: "arg", regionLabel: "Argentina", kind: "Live", kindClass: "live",
-      date: "15–19 Oct 2026", accent: "var(--clay)",
-      title: "La Natividad La Dolfina crush Don Ercole 27-7 as Tortugas keeps catching up on its backlog",
+      date: "15–21 Oct 2026", accent: "var(--clay)",
+      title: "Back at Tortugas CC, La Hache rout La Aguada 30-11 in a 41-goal shootout",
       body:
-        "After more than a week lost to rain, the 86th Tortugas Open resumed on 15 October — relocated from Tortugas Country Club to the AAP's Alfredo Lalor headquarters in Pilar, where the pitches had held up. Results since: Híper 21-10 La Aguada (Torito Ruiz Jorba scored 10) and La Irenita 14-12 Las Monjitas on the 15th; Ellerstina Indios Chapaleufú's extraordinary 16-15 comeback over La Ensenada, having trailed 7-12 at the break, plus La Natividad La Dolfina's tight 15-14 debut win over La Zeta Kazak on the 16th. Zone B's second round closed on the 18th: Las Monjitas edged Híper 16-15 in a match settled in the last chukka, and La Hache beat La Irenita 19-12 on its tournament debut. Zone A's delayed third date followed on the 19th, still at AAP HQ: La Natividad La Dolfina steamrolled Don Ercole 27-7 — a twenty-goal margin, Camilo \"Jeta\" Castagnola scoring 11 and the Cañuelas side's 17th straight win since its merger — while La Zeta Kazak beat La Ensenada 14-11 behind 8 goals from Lorenzo Chavanne, for its first win of the tournament. Play returns to Tortugas Country Club itself on Wednesday 21 October, with La Hache vs. La Aguada and Híper vs. La Irenita. The final remains scheduled for 7 November.",
+        "After more than a week lost to rain, the 86th Tortugas Open resumed on 15 October — relocated from Tortugas Country Club to the AAP's Alfredo Lalor headquarters in Pilar, where the pitches had held up. Results there: Híper 21-10 La Aguada (Torito Ruiz Jorba scored 10) and La Irenita 14-12 Las Monjitas on the 15th; Ellerstina Indios Chapaleufú's extraordinary 16-15 comeback over La Ensenada, having trailed 7-12 at the break, plus La Natividad La Dolfina's tight 15-14 debut win over La Zeta Kazak on the 16th; Las Monjitas' 16-15 edge over Híper and La Hache's 19-12 debut win over La Irenita on the 18th; and La Natividad La Dolfina's 27-7 rout of Don Ercole plus La Zeta Kazak's first win, 14-11 over La Ensenada, on the 19th. Play then returned to Tortugas Country Club itself on 21 October: La Hache beat La Aguada 30-11 — one of the highest-scoring matches in the tournament's history, 41 goals between them, with Benjamin Panelo scoring 12 before his brother Joaquín subbed in for a flu-hit Tomás in the last chukka — and La Irenita beat Híper 21-14 behind five goals from Vizcacha MacDonough, for its second win of the tournament. Zone play continues Saturday 24 October: Ellerstina Indios Chapaleufú vs. Don Ercole and La Natividad La Dolfina vs. La Ensenada. The final remains scheduled for 7 November.",
       sources: [
+        { name: "Pololine — La Hache and La Irenita victorious", url: "https://www.pololine.com/news/86th-tortugas-open-la-hache-and-la-irenita-claimed-impressive-wins/" },
         { name: "Pololine — La Natividad La Dolfina and La Zeta Kazak victorious", url: "https://www.pololine.com/es/noticias/86o-abierto-de-tortugas-la-natividad-la-dolfina-sigue-a-paso-firme-y-la-zeta-kazak-se-quedo-con-su-primera-victoria/" },
         { name: "Prensa Polo — 27-7", url: "https://prensapolo.com/en/2026/10/19/la-natividad-la-dolfina-don-ercole/" },
         { name: "Polohub — La Hache 19-12", url: "https://polohub.net/es/noticias/la-hache-debuta-en-el-abierto-de-tortugas-con-una-victoria-por-19-12" },
@@ -741,13 +742,13 @@ window.POLO_DATA = {
 
   /* ---------------- FORWARD CALENDAR ---------------- */
   calendar: [
-    { when: "21 Oct",            title: "Tortugas — back at Tortugas CC",  detail: "La Hache vs. La Aguada, and Híper vs. La Irenita — zone play returns to Tortugas Country Club itself for the first time since the rain delay.", where: "Tortugas CC, Argentina" },
+    { when: "24 Oct",            title: "Tortugas — zone play continues",  detail: "Ellerstina Indios Chapaleufú vs. Don Ercole (1pm), and La Natividad La Dolfina vs. La Ensenada (4pm).", where: "Tortugas CC, Argentina" },
     { when: "15–24 Oct",         title: "Kaduna International Polo Tournament", detail: "A ten-day Georgian Cup for the first time in its 106-year history, with foreign professionals from Argentina, Europe and South Africa.", where: "Murtala Mohammed Square, Kaduna, Nigeria" },
     { when: "19–25 Oct",         title: "B.M. Birla Cup",                 detail: "Closing Jaipur's autumn block at the Rambagh grounds.",                                             where: "Jaipur, India" },
     { when: "24 Oct",            title: "Ladies Charity Cup",             detail: "Part of Al Habtoor's newly opened 2026-27 Gulf season.",                                            where: "Al Habtoor, UAE" },
     { when: "27 Oct – 1 Nov",    title: "Pink Polo Trophy",               detail: "Accra's international signature event, funding breast-cancer screening and education.",              where: "Accra, Ghana" },
     { when: "9–16 Nov",          title: "FIP Zone E World Cup Play-Offs", detail: "Nigeria, India, Iran and Pakistan contest a single berth at the 2027 Uruguay World Championship.",     where: "Guards Polo Club, Abuja, Nigeria" },
-    { when: "7 Nov",             title: "86th Tortugas Open final",       detail: "Still officially scheduled, though a week-plus of rain has pushed zone play into a mid-week catch-up at AAP HQ.", where: "Tortugas CC, Argentina" },
+    { when: "7 Nov",             title: "86th Tortugas Open final",       detail: "Still officially scheduled, though a week-plus of rain earlier in the tournament makes the date tight. Zone play is back at Tortugas CC itself.", where: "Tortugas CC, Argentina" },
     { when: "10 Nov – 12 Dec",   title: "133rd Argentine Open",           detail: "Palermo. Opening dates confirmed unchanged — the Pope's 9 November Palermo mass falls the day before the 10 November opening; final 12 December.", where: "Campo Argentino de Polo" },
     { when: "11 Nov",            title: "La Dolfina annual breeding auction", detail: "Remate Anual de Cría. Advertised date, not independently confirmed.",                            where: "La Dolfina Polo Club" },
     { when: "24–28 Nov",         title: "UAE National Day Cup",           detail: "8–10 goal. Part of the Gulf's published season calendar.",                                           where: "Al Habtoor, UAE" },
