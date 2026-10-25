@@ -7,11 +7,11 @@
 window.POLO_DATA = {
 
   meta: {
-    updated: "24 October 2026",
-    edition: "No. 7",
+    updated: "25 October 2026",
+    edition: "No. 8",
     stats: [
-      { n: "13",  l: "Tortugas matches played in 19 days" },
-      { n: "36",  l: "Finals in the 2026 ledger" },
+      { n: "15",  l: "Tortugas matches played in 20 days" },
+      { n: "38",  l: "Finals in the 2026 ledger" },
       { n: "40",  l: "Goals — highest-rated team on earth" },
       { n: "Feb 2027", l: "FIP World Cup — Uruguay, confirmed" },
       { n: "7",   l: "Regions tracked" }
@@ -56,8 +56,8 @@ window.POLO_DATA = {
           { team: "La Aguada",  goals: "11" }
         ],
         note:
-          "Ten teams for the first time, after the AAP gave both Qualification Tournament winners a Tortugas berth. After more than a week lost to rain, play resumed on 15 October at the AAP's own Alfredo Lalor headquarters in Pilar, before returning to Tortugas Country Club itself on 21 October. Results since the restart: Híper 21-10 La Aguada and La Irenita 14-12 Las Monjitas (15 Oct); Ellerstina Indios Chapaleufú 16-15 La Ensenada, a wild match Ellerstina trailed 7-12 at half-time, and La Natividad La Dolfina 15-14 La Zeta Kazak in their tournament debut (16 Oct); Las Monjitas 16-15 Híper and La Hache 19-12 La Irenita closed Zone B's second round (18 Oct); La Natividad La Dolfina routed Don Ercole 27-7 and La Zeta Kazak beat La Ensenada 14-11 for its first win of the tournament (19 Oct). Back at Tortugas CC on 21 October, La Hache beat La Aguada 30-11 in a 41-goal shootout — one of the highest-scoring matches in the tournament's history, Benjamin Panelo scoring 12 — and La Irenita beat Híper 21-14 behind five goals from Vizcacha MacDonough, for its second win of the tournament. On 24 October, Ellerstina Indios Chapaleufú beat Don Ercole 16-11 — Facundo Pieres scoring 11, seven of them from penalty — to go 3-0 and unbeaten in Zone A, leaving it positioned for the tournament's first semi-final. Zone B's run-in follows on 25 October (Las Monjitas vs. La Aguada, La Hache vs. Híper), with Zone A's La Natividad La Dolfina vs. La Ensenada still to be played. Semi-finals are provisionally expected around 1 November, with the final still scheduled for 7 November, though the rain backlog still makes that date tight.",
-        source: { name: "Pololine — La Hache and La Irenita victorious", url: "https://www.pololine.com/news/86th-tortugas-open-la-hache-and-la-irenita-claimed-impressive-wins/" }
+          "Ten teams for the first time, after the AAP gave both Qualification Tournament winners a Tortugas berth. After more than a week lost to rain, play resumed on 15 October at the AAP's own Alfredo Lalor headquarters in Pilar, before returning to Tortugas Country Club itself on 21 October. Results since the restart: Híper 21-10 La Aguada and La Irenita 14-12 Las Monjitas (15 Oct); Ellerstina Indios Chapaleufú 16-15 La Ensenada, a wild match Ellerstina trailed 7-12 at half-time, and La Natividad La Dolfina 15-14 La Zeta Kazak in their tournament debut (16 Oct); Las Monjitas 16-15 Híper and La Hache 19-12 La Irenita closed Zone B's second round (18 Oct); La Natividad La Dolfina routed Don Ercole 27-7 and La Zeta Kazak beat La Ensenada 14-11 for its first win of the tournament (19 Oct). Back at Tortugas CC on 21 October, La Hache beat La Aguada 30-11 in a 41-goal shootout — one of the highest-scoring matches in the tournament's history, Benjamin Panelo scoring 12 — and La Irenita beat Híper 21-14 behind five goals from Vizcacha MacDonough, for its second win of the tournament. Zone A was settled on 24 October: Ellerstina Indios Chapaleufú beat Don Ercole 16-11 — Facundo Pieres scoring 11, seven of them from penalty — and La Natividad La Dolfina, the reigning Triple Crown holder and sole surviving contender for the 2026 Crown, beat La Ensenada 17-7 in heavy rain, both going 3-0 and unbeaten. The AAP has fixed the Zone A decider — Ellerstina Indios Chapaleufú vs. La Natividad La Dolfina, winner through to the final — for Saturday 31 October at 16:00. Zone B's run-in follows on 25 October (Las Monjitas vs. La Aguada, La Hache vs. Híper), with its own decider still to be scheduled. The final remains set for 7 November, though the rain backlog still makes that date tight.",
+        source: { name: "AAP — Zone A result and 31 Oct fixture", url: "https://aapolo.com/noticias/detalle/9310" }
       },
       {
         name: "133rd Argentine Open — Palermo",
@@ -102,12 +102,14 @@ window.POLO_DATA = {
     {
       region: "arg", regionLabel: "Argentina", kind: "Live", kindClass: "live",
       date: "15–24 Oct 2026", accent: "var(--clay)",
-      title: "Ellerstina goes unbeaten through Zone A as Tortugas edges toward its semi-finals",
+      title: "Zone A is set — Ellerstina vs. La Natividad La Dolfina for a place in the Tortugas final",
       body:
-        "After more than a week lost to rain, the 86th Tortugas Open resumed on 15 October — relocated from Tortugas Country Club to the AAP's Alfredo Lalor headquarters in Pilar, where the pitches had held up. Results there: Híper 21-10 La Aguada (Torito Ruiz Jorba scored 10) and La Irenita 14-12 Las Monjitas on the 15th; Ellerstina Indios Chapaleufú's extraordinary 16-15 comeback over La Ensenada, having trailed 7-12 at the break, plus La Natividad La Dolfina's tight 15-14 debut win over La Zeta Kazak on the 16th; Las Monjitas' 16-15 edge over Híper and La Hache's 19-12 debut win over La Irenita on the 18th; and La Natividad La Dolfina's 27-7 rout of Don Ercole plus La Zeta Kazak's first win, 14-11 over La Ensenada, on the 19th. Play then returned to Tortugas Country Club itself on 21 October: La Hache beat La Aguada 30-11 — one of the highest-scoring matches in the tournament's history, 41 goals between them, with Benjamin Panelo scoring 12 before his brother Joaquín subbed in for a flu-hit Tomás in the last chukka — and La Irenita beat Híper 21-14 behind five goals from Vizcacha MacDonough, for its second win of the tournament. On 24 October, Ellerstina Indios Chapaleufú beat Don Ercole 16-11 — Facundo Pieres top-scoring with 11, seven from the penalty spot — to go unbeaten through three rounds of Zone A and put itself in position for the tournament's first semi-final. La Natividad La Dolfina's Zone A fixture against La Ensenada, also scheduled for the 24th, remained unplayed as of this update. Zone B's run-in follows on 25 October; semi-finals are provisionally expected around 1 November, with the final still scheduled for 7 November.",
+        "After more than a week lost to rain, the 86th Tortugas Open resumed on 15 October — relocated from Tortugas Country Club to the AAP's Alfredo Lalor headquarters in Pilar, where the pitches had held up. Results there: Híper 21-10 La Aguada (Torito Ruiz Jorba scored 10) and La Irenita 14-12 Las Monjitas on the 15th; Ellerstina Indios Chapaleufú's extraordinary 16-15 comeback over La Ensenada, having trailed 7-12 at the break, plus La Natividad La Dolfina's tight 15-14 debut win over La Zeta Kazak on the 16th; Las Monjitas' 16-15 edge over Híper and La Hache's 19-12 debut win over La Irenita on the 18th; and La Natividad La Dolfina's 27-7 rout of Don Ercole plus La Zeta Kazak's first win, 14-11 over La Ensenada, on the 19th. Play then returned to Tortugas Country Club itself on 21 October: La Hache beat La Aguada 30-11 — one of the highest-scoring matches in the tournament's history, 41 goals between them, with Benjamin Panelo scoring 12 before his brother Joaquín subbed in for a flu-hit Tomás in the last chukka — and La Irenita beat Híper 21-14 behind five goals from Vizcacha MacDonough, for its second win of the tournament. Zone A was decided on 24 October: Ellerstina Indios Chapaleufú beat Don Ercole 16-11 — Facundo Pieres top-scoring with 11, seven from the penalty spot — and La Natividad La Dolfina, the reigning champion and the AAP's only surviving Triple Crown contender, beat La Ensenada 17-7 in heavy rain. Both finished Zone A 3-0 and unbeaten, so the AAP has fixed a league decider between them — Ellerstina Indios Chapaleufú vs. La Natividad La Dolfina, winner through to the final — for Saturday 31 October at 16:00, streamed live on Disney+ Premium and live.aapolo.com. Zone B's run-in follows on 25 October: Las Monjitas vs. La Aguada (1pm) and La Hache vs. Híper (4pm), with La Hache still the only unbeaten side in that half of the draw. The final remains scheduled for 7 November, though the rain backlog earlier in the tournament still makes that date tight.",
       sources: [
+        { name: "AAP — official Zone A result and 31 Oct fixture", url: "https://aapolo.com/noticias/detalle/9310" },
         { name: "Pololine — La Hache and La Irenita victorious", url: "https://www.pololine.com/news/86th-tortugas-open-la-hache-and-la-irenita-claimed-impressive-wins/" },
-        { name: "Pololine — La Natividad La Dolfina and La Zeta Kazak victorious", url: "https://www.pololine.com/es/noticias/86o-abierto-de-tortugas-la-natividad-la-dolfina-sigue-a-paso-firme-y-la-zeta-kazak-se-quedo-con-su-primera-victoria/" },
+        { name: "Pololine — Ellerstina and La Natividad remain unbeaten", url: "https://www.pololine.com/news/86th-tortugas-open-ellerstina-indios-chapaleufu-and-la-natividad-la-dolfina-remain-unbeaten/" },
+        { name: "El Ciudadano — La Natividad 17-7 La Ensenada", url: "https://elciudadano.com.ar/contenido/24293/polo-la-natividad-la-dolfina-volvio-a-ganar-en-tortugas-se-metio-en-la-semifinal" },
         { name: "Prensa Polo — 27-7", url: "https://prensapolo.com/en/2026/10/19/la-natividad-la-dolfina-don-ercole/" },
         { name: "Polohub — La Hache 19-12", url: "https://polohub.net/es/noticias/la-hache-debuta-en-el-abierto-de-tortugas-con-una-victoria-por-19-12" },
         { name: "Polohub — Las Monjitas 16-15", url: "https://polohub.net/es/noticias/las-monjitas-supera-a-hiper-polo-16-15-en-un-partido-que-se-definio" },
@@ -451,11 +453,14 @@ window.POLO_DATA = {
     /* ---- MIDDLE EAST ---- */
     {
       region: "gulf", regionLabel: "UAE", kind: "Season opens", kindClass: "hot",
-      date: "10 Oct 2026", accent: "var(--clay)",
-      title: "Dubai's season opens on Saturday — and the Gulf calendar is published through April",
+      date: "24 Oct 2026", accent: "var(--clay)",
+      title: "Dubai's season opens on Saturday — Al Habtoor confirms a 15-event calendar through April",
       body:
-        "Al Habtoor Polo Resort & Club opens the 2026-27 season on 10 October, followed by the Ladies Charity Cup on 24 October and a Halloween Cup at the end of the month. The UAE National Day Cup runs 24–28 November, the 20-goal Silver Cup 23 January – 6 February, and the Gold Cup 3–20 March 2027.",
-      sources: [{ name: "Dubai Polo Gold Cup (official calendar)", url: "https://www.dubaipologoldcup.com/" }]
+        "Al Habtoor Polo Resort & Club's 2026-27 season formally opened 24 October with the Ladies Charity Cup, following a 19 September exhibition match. The club's published calendar runs 15 events to 24 April 2027: a Halloween Cup (2-4 goal) follows 26–31 October, an Al Habtoor November Tournament (4-6 goal) runs 9–14 November, the UAE National Day Tournament (8-10 goal) runs 24–28 November, the Sir Winston Churchill Cup (8-10 goal) runs 2–5 December, and an Al Habtoor Polo Festival (2-4 goal) closes out the calendar year 14–19 December. The headline Dubai Gold Cup Series — Gold Cup, Silver Cup, Challenge Cup, Dubai Cup and Masters Cup, up to 20 goals — runs across five tournaments in 2027, with the Silver Cup confirmed for 23 January – 6 February and the Gold Cup for 3–20 March.",
+      sources: [
+        { name: "Dubai Polo Gold Cup (official calendar)", url: "https://www.dubaipologoldcup.com/" },
+        { name: "UAE Human Journey — 2026-27 season, 15 events confirmed", url: "https://blog.uaehumanjourney.com/en/2026/10/23/al-habtoor-polo-season-2026-2027-features-15-exciting-events-led-by-the-dubai-gold-cup-series/" }
+      ]
     },
     {
       region: "gulf", regionLabel: "UAE", kind: "Result", kindClass: "result",
@@ -508,6 +513,17 @@ window.POLO_DATA = {
       body:
         "The Indian Polo Association, founded 1892, shares its registered office with 'B' Squadron, 61 Cavalry at Delhi Cantt — a neat illustration of how far the Army underwrites the grounds, horses and player pipeline. The Calcutta Polo Club, the world's oldest, still runs the Ezra Cup.",
       sources: [{ name: "Indian Polo Association", url: "https://www.ipa.co.in/" }]
+    },
+    {
+      region: "asia", regionLabel: "India", kind: "Result", kindClass: "result",
+      date: "18 Oct 2026",
+      title: "PBG-Udai end a two-decade wait as Delhi's Baroda Cup concludes",
+      body:
+        "The Baroda Cup Polo 2026 closed at the Army Equestrian Centre, Delhi, under the patronage of H.H. Princess Asha Raje Gaekwad. Team Andaaz — Ryan Kidwai, Swastik Devgun, Ojaswi Khaneja and Major Romick Sharma — took the Baroda Cup presentation over Crown Vet. In the tournament's other championship, PBG-Udai, led by captain Deepak Udar and fielding President's Bodyguard trooper Dafadar Sukhjit Singh, beat Thunderbolt to win the regiment's 8-goal trophy for the first time in roughly two decades. No scores were published for either final. The result opens Delhi's fall season, which the Indian Polo Association's Army Polo and Riding Centre runs through to the President's Polo Cup in late November.",
+      sources: [
+        { name: "myKhel", url: "https://www.mykhel.com/more-sports/baroda-cup-polo-2026-concludes-in-delhi-team-andaaz-pbg-udai-take-top-honours-456847.html" },
+        { name: "Firstpost", url: "https://www.firstpost.com/sports/pbg-udar-baroda-cup-trophy-polo-in-delhi-enters-new-chapter-14054298.html" }
+      ]
     },
     {
       region: "asia", regionLabel: "India", kind: "Result", kindClass: "result",
@@ -631,11 +647,11 @@ window.POLO_DATA = {
       date: "9–16 Nov 2026",
       title: "El-Amin take a 16th Georgian Cup as Nigeria prepares to host FIP Zone E Play-Offs",
       body:
-        "The Nigerian Polo Association confirmed it will host the Zone E Playoffs of the XIII FIP World Polo Championship at Guards Polo Club, Abuja, from 9 to 16 November — six matches over the week (decisive rounds 11, 13 and 15 November) between Nigeria, India, Iran and Pakistan for a single berth at the February 2027 World Championship in Punta del Este, Uruguay. It follows the USA's Zone A qualification in Wellington in May. Separately, 2026's Kaduna International Polo Tournament — featuring the Georgian Cup, the oldest and most prestigious trophy in West African polo, first awarded in 1919 — ran a ten-day format for the first time in its 106-year history at Murtala Mohammed Square, with foreign professionals from Argentina, Europe and South Africa in the field alongside clubs from Lagos, Kano, Abuja and Port Harcourt. El-Amin Polo Club, celebrating its own 30th anniversary, beat Kaduna Makarfi 12-4 in the 104th Georgian Cup final to take a record 16th title, with patron Mohammed Babangida fielding Argentine professional Facundo alongside him. Nigerian outlets reported the final as being played 'over the weekend'; the exact date could not be pinned down beyond that.",
+        "The Nigerian Polo Association confirmed it will host the Zone E Playoffs of the XIII FIP World Polo Championship at Guards Polo Club, Abuja, from 9 to 16 November — six matches over the week (decisive rounds 11, 13 and 15 November) between Nigeria, India, Iran and Pakistan for a single berth at the February 2027 World Championship in Punta del Este, Uruguay. It follows the USA's Zone A qualification in Wellington in May. Separately, 2026's Kaduna International Polo Tournament — featuring the Georgian Cup, the oldest and most prestigious trophy in West African polo, first awarded in 1919 — ran a ten-day format for the first time in its 106-year history at Murtala Mohammed Square, with foreign professionals from Argentina, Europe and South Africa in the field alongside clubs from Lagos, Kano, Abuja and Port Harcourt. El-Amin Polo Club, celebrating its own 30th anniversary, beat Kaduna Makarfi 12-4 in the 104th Georgian Cup final to take a record 16th title, with patron Mohammed Babangida fielding Argentine professional Facundo alongside him. FirstBank's own pre-tournament release confirms the nine-day Georgian Cup ran 16–24 October at Kaduna Polo Club; Daily Trust's report of the final, published after the close, describes it only as played 'over the weekend' — consistent with a Saturday 24 October final, the tournament's closing day, though no outlet gave that exact date for the final itself.",
       sources: [
         { name: "Punch — FIP Zone E Playoffs", url: "https://punchng.com/nigeria-to-host-zone-e-playoffs-of-the-xiii-fip-world-polo-championship-in-abuja/" },
         { name: "Sports247 — Abuja preparations", url: "https://www.sports247.ng/nigeria-targets-sports-tourism-boost-as-abuja-prepares-for-world-polo-championship-qualifiers/" },
-        { name: "Gatmash — Georgian Cup 2026", url: "https://gatmash.com/2026/10/14/georgian-cup-2026-firstbank-backs-nine-days-of-elite-polo-in-kaduna/" },
+        { name: "Gatmash — Georgian Cup 2026 dates (16–24 Oct)", url: "https://gatmash.com/2026/10/14/georgian-cup-2026-firstbank-backs-nine-days-of-elite-polo-in-kaduna/" },
         { name: "Daily Trust — El-Amin wins 16th Georgian Cup", url: "https://dailytrust.com/el-amin-wins-historic-16th-first-bank-georgian-cup/" },
         { name: "Blueprint — El-Amin makes history", url: "https://blueprint.ng/el-amin-polo-makes-history-wins-16th-georgian-cup/" }
       ]
@@ -684,12 +700,16 @@ window.POLO_DATA = {
 
   /* ---------------- RESULTS LEDGER ---------------- */
   results: [
+    { date: "24 Oct 2026", event: "86th Tortugas Open (Zone A)",    region: "Argentina",    winner: "La Natividad La Dolfina", score: "17–7", runnerUp: "La Ensenada GreenArmor",
+      sources: [{ name: "AAP — official", url: "https://aapolo.com/noticias/detalle/9310" }] },
     { date: "24 Oct 2026", event: "86th Tortugas Open (Zone A)",    region: "Argentina",    winner: "Ellerstina Indios Chapaleufú", score: "16–11", runnerUp: "Don Ercole",
       sources: [{ name: "PoloHUB", url: "https://polohub.net/es/noticias/ellerstina-indios-chapaleufu-vista-vence-a-don-ercole-larrainvial-y" }] },
     { date: "24 Oct 2026", event: "B.M. Birla Cup",                 region: "India · Jaipur", winner: "Team Jaipur", score: "8–6", runnerUp: "Team Mayfair Polo",
       sources: [{ name: "Times of India", url: "https://timesofindia.indiatimes.com/city/jaipur/padmanabh-singh-excels-as-team-jaipur-lift-bm-birla-cup-beating-team-mayfair-polo-8-6-in-final/articleshow/135176535.cms" }] },
-    { date: "Oct 2026 (exact date unconfirmed)", event: "104th Georgian Cup", region: "Nigeria · Kaduna", winner: "El-Amin Polo Club", score: "12–4", runnerUp: "Kaduna Makarfi",
-      sources: [{ name: "Daily Trust", url: "https://dailytrust.com/el-amin-wins-historic-16th-first-bank-georgian-cup/" }] },
+    { date: "24 Oct 2026 (precise final date unconfirmed)", event: "104th Georgian Cup", region: "Nigeria · Kaduna", winner: "El-Amin Polo Club", score: "12–4", runnerUp: "Kaduna Makarfi",
+      sources: [{ name: "Daily Trust", url: "https://dailytrust.com/el-amin-wins-historic-16th-first-bank-georgian-cup/" }, { name: "Gatmash — tournament dates", url: "https://gatmash.com/2026/10/14/georgian-cup-2026-firstbank-backs-nine-days-of-elite-polo-in-kaduna/" }] },
+    { date: "18 Oct 2026", event: "Baroda Cup",                     region: "India · Delhi", winner: "Team Andaaz", score: "—", runnerUp: "Crown Vet",
+      sources: [{ name: "myKhel", url: "https://www.mykhel.com/more-sports/baroda-cup-polo-2026-concludes-in-delhi-team-andaaz-pbg-udai-take-top-honours-456847.html" }] },
     { date: "18 Oct 2026", event: "USPA Women's Arena Open",        region: "USA · California", winner: "Ursulus Polo", score: "31–29", runnerUp: "Buchalter",
       sources: [{ name: "USPA scoreboard", url: "https://www.uspolo.org/tournaments/scoreboard" }] },
     { date: "11 Oct 2026", event: "East Coast Open Women's C'ship", region: "USA · Aiken", winner: "Amasé", score: "11–10", runnerUp: "Sirius",
@@ -760,18 +780,21 @@ window.POLO_DATA = {
 
   /* ---------------- FORWARD CALENDAR ---------------- */
   calendar: [
-    { when: "25 Oct",            title: "Tortugas — Zone B run-in",       detail: "Las Monjitas vs. La Aguada and La Hache vs. Híper; La Natividad La Dolfina's Zone A fixture against La Ensenada remains to be played.", where: "Tortugas CC, Argentina" },
-    { when: "24 Oct",            title: "Ladies Charity Cup",             detail: "Part of Al Habtoor's newly opened 2026-27 Gulf season.",                                            where: "Al Habtoor, UAE" },
+    { when: "25 Oct",            title: "Tortugas — Zone B, round 4",     detail: "Las Monjitas vs. La Aguada (1pm) and La Hache vs. Híper (4pm); La Hache is Zone B's only unbeaten side.", where: "Tortugas CC, Argentina" },
+    { when: "26–31 Oct",         title: "Al Habtoor Halloween Cup",       detail: "2-4 goal. Part of the newly confirmed 15-event 2026-27 Gulf season.",                                   where: "Al Habtoor, UAE" },
     { when: "27 Oct – 1 Nov",    title: "Pink Polo Trophy",               detail: "Accra's international signature event, funding breast-cancer screening and education.",              where: "Accra, Ghana" },
-    { when: "1 Nov (provisional)", title: "86th Tortugas Open semi-finals", detail: "Ellerstina Indios Chapaleufú goes in unbeaten from Zone A; Zone B's leader still to be settled.", where: "Tortugas CC, Argentina" },
+    { when: "31 Oct, 16:00",     title: "86th Tortugas Open — Zone A decider", detail: "Ellerstina Indios Chapaleufú vs. La Natividad La Dolfina, both unbeaten; winner through to the final. Confirmed by the AAP.", where: "Tortugas CC, Argentina" },
+    { when: "9–14 Nov",          title: "Al Habtoor November Tournament", detail: "4-6 goal.",                                                                                             where: "Al Habtoor, UAE" },
     { when: "9–16 Nov",          title: "FIP Zone E World Cup Play-Offs", detail: "Nigeria, India, Iran and Pakistan contest a single berth at the 2027 Uruguay World Championship.",     where: "Guards Polo Club, Abuja, Nigeria" },
-    { when: "7 Nov",             title: "86th Tortugas Open final",       detail: "Still officially scheduled, though a week-plus of rain earlier in the tournament makes the date tight. Zone play is back at Tortugas CC itself.", where: "Tortugas CC, Argentina" },
+    { when: "7 Nov",             title: "86th Tortugas Open final",       detail: "Still officially scheduled, though a week-plus of rain earlier in the tournament makes the date tight. Zone B's decider is still to be fixed.", where: "Tortugas CC, Argentina" },
     { when: "10 Nov – 12 Dec",   title: "133rd Argentine Open",           detail: "Palermo. Opening dates confirmed unchanged — the Pope's 9 November Palermo mass falls the day before the 10 November opening; final 12 December.", where: "Campo Argentino de Polo" },
     { when: "11 Nov",            title: "La Dolfina annual breeding auction", detail: "Remate Anual de Cría. Advertised date, not independently confirmed.",                            where: "La Dolfina Polo Club" },
     { when: "14 Nov",            title: "Standard Bank Polo Test Match",  detail: "South Africa defends last year's 8-6 win over England.",                                               where: "Val de Vie Estate, Paarl, South Africa" },
-    { when: "24–28 Nov",         title: "UAE National Day Cup",           detail: "8–10 goal. Part of the Gulf's published season calendar.",                                           where: "Al Habtoor, UAE" },
+    { when: "24–28 Nov",         title: "UAE National Day Tournament",    detail: "8-10 goal. Part of Al Habtoor's confirmed 2026-27 calendar.",                                        where: "Al Habtoor, UAE" },
     { when: "26 Nov – 11 Dec",   title: "X Argentine Women's Open",       detail: "La Dolfina field a 38-goal side led by Mía Cambiaso and Hope Arellano.",                             where: "Argentina" },
+    { when: "2–5 Dec",           title: "Sir Winston Churchill Cup",      detail: "8-10 goal.",                                                                                            where: "Al Habtoor, UAE" },
     { when: "10–12 Dec",         title: "Polo AlMarsa Qatar",             detail: "Confirmed dates for the waterfront tournament's second edition, debuting Qatar's first women's polo team.", where: "Old Doha Port, Qatar" },
+    { when: "14–19 Dec",         title: "Al Habtoor Polo Festival",       detail: "2-4 goal. Closes the Gulf club's 2026 calendar.",                                                      where: "Al Habtoor, UAE" },
     { when: "27 Dec",            title: "Wellington season opens",        detail: "National Polo Center's 2026-27 season runs through to 2 May 2027.",                                 where: "Wellington, Florida" },
     { when: "22–24 Jan 2027",    title: "42nd Snow Polo World Cup",       detail: "Confirmed dates on the frozen lake.",                                                               where: "St. Moritz, Switzerland" },
     { when: "23 Jan – 6 Feb 2027", title: "Dubai Silver Cup",             detail: "20 goal. The Gold Cup follows 3–20 March 2027.",                                                    where: "Al Habtoor, UAE" },
