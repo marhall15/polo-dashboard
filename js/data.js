@@ -7,11 +7,11 @@
 window.POLO_DATA = {
 
   meta: {
-    updated: "25 October 2026",
-    edition: "No. 8",
+    updated: "26 October 2026",
+    edition: "No. 9",
     stats: [
-      { n: "15",  l: "Tortugas matches played in 20 days" },
-      { n: "38",  l: "Finals in the 2026 ledger" },
+      { n: "17",  l: "Tortugas matches played in 20 days" },
+      { n: "41",  l: "Finals in the 2026 ledger" },
       { n: "40",  l: "Goals — highest-rated team on earth" },
       { n: "Feb 2027", l: "FIP World Cup — Uruguay, confirmed" },
       { n: "7",   l: "Regions tracked" }
@@ -56,8 +56,8 @@ window.POLO_DATA = {
           { team: "La Aguada",  goals: "11" }
         ],
         note:
-          "Ten teams for the first time, after the AAP gave both Qualification Tournament winners a Tortugas berth. After more than a week lost to rain, play resumed on 15 October at the AAP's own Alfredo Lalor headquarters in Pilar, before returning to Tortugas Country Club itself on 21 October. Results since the restart: Híper 21-10 La Aguada and La Irenita 14-12 Las Monjitas (15 Oct); Ellerstina Indios Chapaleufú 16-15 La Ensenada, a wild match Ellerstina trailed 7-12 at half-time, and La Natividad La Dolfina 15-14 La Zeta Kazak in their tournament debut (16 Oct); Las Monjitas 16-15 Híper and La Hache 19-12 La Irenita closed Zone B's second round (18 Oct); La Natividad La Dolfina routed Don Ercole 27-7 and La Zeta Kazak beat La Ensenada 14-11 for its first win of the tournament (19 Oct). Back at Tortugas CC on 21 October, La Hache beat La Aguada 30-11 in a 41-goal shootout — one of the highest-scoring matches in the tournament's history, Benjamin Panelo scoring 12 — and La Irenita beat Híper 21-14 behind five goals from Vizcacha MacDonough, for its second win of the tournament. Zone A was settled on 24 October: Ellerstina Indios Chapaleufú beat Don Ercole 16-11 — Facundo Pieres scoring 11, seven of them from penalty — and La Natividad La Dolfina, the reigning Triple Crown holder and sole surviving contender for the 2026 Crown, beat La Ensenada 17-7 in heavy rain, both going 3-0 and unbeaten. The AAP has fixed the Zone A decider — Ellerstina Indios Chapaleufú vs. La Natividad La Dolfina, winner through to the final — for Saturday 31 October at 16:00. Zone B's run-in follows on 25 October (Las Monjitas vs. La Aguada, La Hache vs. Híper), with its own decider still to be scheduled. The final remains set for 7 November, though the rain backlog still makes that date tight.",
-        source: { name: "AAP — Zone A result and 31 Oct fixture", url: "https://aapolo.com/noticias/detalle/9310" }
+          "Ten teams for the first time, after the AAP gave both Qualification Tournament winners a Tortugas berth. After more than a week lost to rain, play resumed on 15 October at the AAP's own Alfredo Lalor headquarters in Pilar, before returning to Tortugas Country Club itself on 21 October. Results since the restart: Híper 21-10 La Aguada and La Irenita 14-12 Las Monjitas (15 Oct); Ellerstina Indios Chapaleufú 16-15 La Ensenada, a wild match Ellerstina trailed 7-12 at half-time, and La Natividad La Dolfina 15-14 La Zeta Kazak in their tournament debut (16 Oct); Las Monjitas 16-15 Híper and La Hache 19-12 La Irenita closed Zone B's second round (18 Oct); La Natividad La Dolfina routed Don Ercole 27-7 and La Zeta Kazak beat La Ensenada 14-11 for its first win of the tournament (19 Oct). Back at Tortugas CC on 21 October, La Hache beat La Aguada 30-11 in a 41-goal shootout — one of the highest-scoring matches in the tournament's history, Benjamin Panelo scoring 12 — and La Irenita beat Híper 21-14 behind five goals from Vizcacha MacDonough, for its second win of the tournament. Zone A was settled on 24 October: Ellerstina Indios Chapaleufú beat Don Ercole 16-11 — Facundo Pieres scoring 11, seven of them from penalty — and La Natividad La Dolfina, the reigning Triple Crown holder and sole surviving contender for the 2026 Crown, beat La Ensenada 17-7 in heavy rain, both going 3-0 and unbeaten. The AAP has fixed the Zone A decider — Ellerstina Indios Chapaleufú vs. La Natividad La Dolfina, winner through to the final — for Saturday 31 October at 16:00. Zone B's run-in followed on 25 October: Las Monjitas routed La Aguada 22-8, Rufino Bensadón scoring nine, while La Hache beat Híper 14-10 to stay unbeaten and top of the league. That sets up a Zone B decider too — Las Monjitas vs. La Hache, Sunday 1 November at 16:00, with La Hache needing only a draw's worth of advantage given their unbeaten record. The full resumption schedule is Saturday 31 October (1pm Don Ercole vs. La Zeta Kazak, 4pm the Zone A decider) and Sunday 1 November (1pm La Aguada vs. La Irenita, 4pm the Zone B decider). The final remains set for 7 November, though the rain backlog still makes that date tight.",
+        source: { name: "Pololine — La Hache and Las Monjitas to decide League B", url: "https://www.pololine.com/news/86th-tortugas-open-la-hache-and-las-monjitas-to-decide-league-b/" }
       },
       {
         name: "133rd Argentine Open — Palermo",
@@ -101,11 +101,12 @@ window.POLO_DATA = {
     },
     {
       region: "arg", regionLabel: "Argentina", kind: "Live", kindClass: "live",
-      date: "15–24 Oct 2026", accent: "var(--clay)",
-      title: "Zone A is set — Ellerstina vs. La Natividad La Dolfina for a place in the Tortugas final",
+      date: "15–25 Oct 2026", accent: "var(--clay)",
+      title: "Both league deciders are now set — Ellerstina vs. La Natividad and Las Monjitas vs. La Hache",
       body:
-        "After more than a week lost to rain, the 86th Tortugas Open resumed on 15 October — relocated from Tortugas Country Club to the AAP's Alfredo Lalor headquarters in Pilar, where the pitches had held up. Results there: Híper 21-10 La Aguada (Torito Ruiz Jorba scored 10) and La Irenita 14-12 Las Monjitas on the 15th; Ellerstina Indios Chapaleufú's extraordinary 16-15 comeback over La Ensenada, having trailed 7-12 at the break, plus La Natividad La Dolfina's tight 15-14 debut win over La Zeta Kazak on the 16th; Las Monjitas' 16-15 edge over Híper and La Hache's 19-12 debut win over La Irenita on the 18th; and La Natividad La Dolfina's 27-7 rout of Don Ercole plus La Zeta Kazak's first win, 14-11 over La Ensenada, on the 19th. Play then returned to Tortugas Country Club itself on 21 October: La Hache beat La Aguada 30-11 — one of the highest-scoring matches in the tournament's history, 41 goals between them, with Benjamin Panelo scoring 12 before his brother Joaquín subbed in for a flu-hit Tomás in the last chukka — and La Irenita beat Híper 21-14 behind five goals from Vizcacha MacDonough, for its second win of the tournament. Zone A was decided on 24 October: Ellerstina Indios Chapaleufú beat Don Ercole 16-11 — Facundo Pieres top-scoring with 11, seven from the penalty spot — and La Natividad La Dolfina, the reigning champion and the AAP's only surviving Triple Crown contender, beat La Ensenada 17-7 in heavy rain. Both finished Zone A 3-0 and unbeaten, so the AAP has fixed a league decider between them — Ellerstina Indios Chapaleufú vs. La Natividad La Dolfina, winner through to the final — for Saturday 31 October at 16:00, streamed live on Disney+ Premium and live.aapolo.com. Zone B's run-in follows on 25 October: Las Monjitas vs. La Aguada (1pm) and La Hache vs. Híper (4pm), with La Hache still the only unbeaten side in that half of the draw. The final remains scheduled for 7 November, though the rain backlog earlier in the tournament still makes that date tight.",
+        "After more than a week lost to rain, the 86th Tortugas Open resumed on 15 October — relocated from Tortugas Country Club to the AAP's Alfredo Lalor headquarters in Pilar, where the pitches had held up. Results there: Híper 21-10 La Aguada (Torito Ruiz Jorba scored 10) and La Irenita 14-12 Las Monjitas on the 15th; Ellerstina Indios Chapaleufú's extraordinary 16-15 comeback over La Ensenada, having trailed 7-12 at the break, plus La Natividad La Dolfina's tight 15-14 debut win over La Zeta Kazak on the 16th; Las Monjitas' 16-15 edge over Híper and La Hache's 19-12 debut win over La Irenita on the 18th; and La Natividad La Dolfina's 27-7 rout of Don Ercole plus La Zeta Kazak's first win, 14-11 over La Ensenada, on the 19th. Play then returned to Tortugas Country Club itself on 21 October: La Hache beat La Aguada 30-11 — one of the highest-scoring matches in the tournament's history, 41 goals between them, with Benjamin Panelo scoring 12 before his brother Joaquín subbed in for a flu-hit Tomás in the last chukka — and La Irenita beat Híper 21-14 behind five goals from Vizcacha MacDonough, for its second win of the tournament. Zone A was decided on 24 October: Ellerstina Indios Chapaleufú beat Don Ercole 16-11 — Facundo Pieres top-scoring with 11, seven from the penalty spot — and La Natividad La Dolfina, the reigning champion and the AAP's only surviving Triple Crown contender, beat La Ensenada 17-7 in heavy rain. Both finished Zone A 3-0 and unbeaten, so the AAP has fixed a league decider between them — Ellerstina Indios Chapaleufú vs. La Natividad La Dolfina, winner through to the final — for Saturday 31 October at 16:00, streamed live on Disney+ Premium and live.aapolo.com. Zone B's run-in followed on 25 October: Las Monjitas routed La Aguada 22-8 — Rufino Bensadón scoring nine, five of them in a blistering first chukka — while La Hache beat Híper 14-10, Hilario Ulloa and the Panelo brothers seeing out a tournament-topping, unbeaten league campaign. That sets up a second decider — Las Monjitas vs. La Hache, Sunday 1 November at 16:00 — with La Hache needing only a result, not a win, given their superior record. The full resumption weekend runs Saturday 31 October (1pm Don Ercole vs. La Zeta Kazak, 4pm the Zone A decider) and Sunday 1 November (1pm La Aguada vs. La Irenita, 4pm the Zone B decider). The final remains scheduled for 7 November, though the rain backlog earlier in the tournament still makes that date tight.",
       sources: [
+        { name: "Pololine — La Hache and Las Monjitas to decide League B", url: "https://www.pololine.com/news/86th-tortugas-open-la-hache-and-las-monjitas-to-decide-league-b/" },
         { name: "AAP — official Zone A result and 31 Oct fixture", url: "https://aapolo.com/noticias/detalle/9310" },
         { name: "Pololine — La Hache and La Irenita victorious", url: "https://www.pololine.com/news/86th-tortugas-open-la-hache-and-la-irenita-claimed-impressive-wins/" },
         { name: "Pololine — Ellerstina and La Natividad remain unbeaten", url: "https://www.pololine.com/news/86th-tortugas-open-ellerstina-indios-chapaleufu-and-la-natividad-la-dolfina-remain-unbeaten/" },
@@ -550,6 +551,18 @@ window.POLO_DATA = {
       sources: [{ name: "The Nation", url: "https://www.nation.com.pk/09-Mar-2026/fg-polo-clinch-63rd-allied-bank-national-open-polo-trophy" }]
     },
     {
+      region: "asia", regionLabel: "Pakistan", kind: "Result", kindClass: "result",
+      date: "25 Oct 2026",
+      title: "Team Asean take the Serena Polo Cup in Islamabad",
+      body:
+        "A 10–6.5 win over Team HN at the Islamabad Club Polo Grounds, in a final organised by Serena Hotels under its Sports Diplomacy Initiative. Eulogio led Team Asean's scoring with four goals, with Maisam Baloch, Haider Asad and Abdullah Faisal adding two apiece; Ibrahim Khalil and Saqib Khakwani scored two each for Team HN, who were credited a half-goal handicap. The closing ceremony was attended by the US, Polish and Japanese diplomatic missions in Islamabad.",
+      score: [
+        { team: "Team Asean", goals: "10", win: true },
+        { team: "Team HN",    goals: "6½" }
+      ],
+      sources: [{ name: "The Nation", url: "https://www.nation.com.pk/25-Oct-2026/team-asean-crowned-serena-polo-cup-2026-champions" }]
+    },
+    {
       region: "asia", regionLabel: "Thailand & Malaysia", kind: "Result", kindClass: "result",
       date: "2026 season",
       title: "Thai Polo marks 20 years; Malaysia plays under royal patronage",
@@ -700,6 +713,12 @@ window.POLO_DATA = {
 
   /* ---------------- RESULTS LEDGER ---------------- */
   results: [
+    { date: "25 Oct 2026", event: "86th Tortugas Open (Zone B)",    region: "Argentina",    winner: "Las Monjitas", score: "22–8", runnerUp: "La Aguada",
+      sources: [{ name: "Pololine", url: "https://www.pololine.com/news/86th-tortugas-open-la-hache-and-las-monjitas-to-decide-league-b/" }] },
+    { date: "25 Oct 2026", event: "86th Tortugas Open (Zone B)",    region: "Argentina",    winner: "La Hache", score: "14–10", runnerUp: "Híper",
+      sources: [{ name: "Pololine", url: "https://www.pololine.com/news/86th-tortugas-open-la-hache-and-las-monjitas-to-decide-league-b/" }] },
+    { date: "25 Oct 2026", event: "Serena Polo Cup",                region: "Pakistan · Islamabad", winner: "Team Asean", score: "10–6½", runnerUp: "Team HN",
+      sources: [{ name: "The Nation", url: "https://www.nation.com.pk/25-Oct-2026/team-asean-crowned-serena-polo-cup-2026-champions" }] },
     { date: "24 Oct 2026", event: "86th Tortugas Open (Zone A)",    region: "Argentina",    winner: "La Natividad La Dolfina", score: "17–7", runnerUp: "La Ensenada GreenArmor",
       sources: [{ name: "AAP — official", url: "https://aapolo.com/noticias/detalle/9310" }] },
     { date: "24 Oct 2026", event: "86th Tortugas Open (Zone A)",    region: "Argentina",    winner: "Ellerstina Indios Chapaleufú", score: "16–11", runnerUp: "Don Ercole",
@@ -780,13 +799,13 @@ window.POLO_DATA = {
 
   /* ---------------- FORWARD CALENDAR ---------------- */
   calendar: [
-    { when: "25 Oct",            title: "Tortugas — Zone B, round 4",     detail: "Las Monjitas vs. La Aguada (1pm) and La Hache vs. Híper (4pm); La Hache is Zone B's only unbeaten side.", where: "Tortugas CC, Argentina" },
     { when: "26–31 Oct",         title: "Al Habtoor Halloween Cup",       detail: "2-4 goal. Part of the newly confirmed 15-event 2026-27 Gulf season.",                                   where: "Al Habtoor, UAE" },
     { when: "27 Oct – 1 Nov",    title: "Pink Polo Trophy",               detail: "Accra's international signature event, funding breast-cancer screening and education.",              where: "Accra, Ghana" },
-    { when: "31 Oct, 16:00",     title: "86th Tortugas Open — Zone A decider", detail: "Ellerstina Indios Chapaleufú vs. La Natividad La Dolfina, both unbeaten; winner through to the final. Confirmed by the AAP.", where: "Tortugas CC, Argentina" },
+    { when: "31 Oct, 16:00",     title: "86th Tortugas Open — Zone A decider", detail: "Ellerstina Indios Chapaleufú vs. La Natividad La Dolfina, both unbeaten; winner through to the final. Confirmed by Pololine.", where: "Tortugas CC, Argentina" },
+    { when: "1 Nov, 16:00",      title: "86th Tortugas Open — Zone B decider", detail: "Las Monjitas vs. La Hache, after both won their 25 October matches 22-8 and 14-10 respectively; winner through to the final.", where: "Tortugas CC, Argentina" },
     { when: "9–14 Nov",          title: "Al Habtoor November Tournament", detail: "4-6 goal.",                                                                                             where: "Al Habtoor, UAE" },
     { when: "9–16 Nov",          title: "FIP Zone E World Cup Play-Offs", detail: "Nigeria, India, Iran and Pakistan contest a single berth at the 2027 Uruguay World Championship.",     where: "Guards Polo Club, Abuja, Nigeria" },
-    { when: "7 Nov",             title: "86th Tortugas Open final",       detail: "Still officially scheduled, though a week-plus of rain earlier in the tournament makes the date tight. Zone B's decider is still to be fixed.", where: "Tortugas CC, Argentina" },
+    { when: "7 Nov",             title: "86th Tortugas Open final",       detail: "Still officially scheduled, though a week-plus of rain earlier in the tournament makes the date tight. Both league deciders are now fixed for 31 Oct/1 Nov.", where: "Tortugas CC, Argentina" },
     { when: "10 Nov – 12 Dec",   title: "133rd Argentine Open",           detail: "Palermo. Opening dates confirmed unchanged — the Pope's 9 November Palermo mass falls the day before the 10 November opening; final 12 December.", where: "Campo Argentino de Polo" },
     { when: "11 Nov",            title: "La Dolfina annual breeding auction", detail: "Remate Anual de Cría. Advertised date, not independently confirmed.",                            where: "La Dolfina Polo Club" },
     { when: "14 Nov",            title: "Standard Bank Polo Test Match",  detail: "South Africa defends last year's 8-6 win over England.",                                               where: "Val de Vie Estate, Paarl, South Africa" },
