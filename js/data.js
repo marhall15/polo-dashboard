@@ -7,11 +7,11 @@
 window.POLO_DATA = {
 
   meta: {
-    updated: "26 October 2026",
-    edition: "No. 9",
+    updated: "27 October 2026",
+    edition: "No. 10",
     stats: [
       { n: "17",  l: "Tortugas matches played in 20 days" },
-      { n: "41",  l: "Finals in the 2026 ledger" },
+      { n: "43",  l: "Finals in the 2026 ledger" },
       { n: "40",  l: "Goals — highest-rated team on earth" },
       { n: "Feb 2027", l: "FIP World Cup — Uruguay, confirmed" },
       { n: "7",   l: "Regions tracked" }
@@ -166,6 +166,38 @@ window.POLO_DATA = {
       body:
         "Mía Cambiaso (10) leads the highest-rated lineup of the tournament alongside Catalina Lavinia (9), Millie Hine (9) and Hope Arellano (10). Cambiaso is one of only four women rated at 10 goals, following a fifth Argentine Women's Open title in 2025.",
       sources: [{ name: "Pololine", url: "https://www.pololine.com/news/teams-dates-for-the-x-argentine-womens-open-have-been-unveiled/" }]
+    },
+    {
+      region: "arg", regionLabel: "Argentina", kind: "New event", kindClass: "hot",
+      date: "26 Oct 2026",
+      title: "Copa La Hache opens at the club's own ground — ten teams, 18-20 goal",
+      body:
+        "The fourth edition of the Copa La Hache began on 26 October at the namesake club in General Rodríguez, Buenos Aires Province, and runs through to 11 November. Ten teams — La Esperanza, La Ensenada, Colorado, La Fe, Balanz Capital, La Dolfina Marqués de Riscal, Hípica Polo, Lavinia, Cría Marmén and Cría Libélula — are split into two five-team leagues playing four qualification games each, with Camilo Castagnola, Hilario Ulloa, Lorenzo Chavanne and Jerónimo del Carril among the players involved. Matches run six chukkas with no draws permitted; the two league winners meet in the Copa La Hache final on 11 November, with the second-placed sides contesting the Copa Clonargen earlier that day.",
+      sources: [{ name: "Pololine", url: "https://www.pololine.com/news/the-copa-la-hache-is-coming-up/" }]
+    },
+    {
+      region: "europe", regionLabel: "Spain", kind: "Result", kindClass: "result",
+      date: "15–18 Oct 2026",
+      title: "Los Schatzies edge Adrenalina by half a goal at Sotogrande's autumn opener",
+      body:
+        "Los Schatzies beat Adrenalina 10-9.5 in the final of the Copa de Otoño II at Ayala Polo Club, part of the Iberian Polo Tour's autumn season in Sotogrande. Luis Domecq top-scored for the winners with two; Adrenalina's Nicolás Ruiz Guiñazú was the match's leading scorer with three.",
+      score: [
+        { team: "Los Schatzies", goals: "10",   win: true },
+        { team: "Adrenalina",    goals: "9½" }
+      ],
+      sources: [{ name: "Pololine", url: "https://www.pololine.com/news/los-schatzies-won-the-copa-de-otono-ii-at-ayala-polo-club/" }]
+    },
+    {
+      region: "asia", regionLabel: "Pakistan", kind: "Result", kindClass: "result",
+      date: "26 Oct 2026",
+      title: "Robson International win Lahore Smart City Polo in Pink on a Mikayil Sami six-goal haul",
+      body:
+        "Robson International beat Diamond Paints 6-5 in the final of the Lahore Smart City Polo in Pink Tournament 2026 at Lahore Polo Club, with Raja Mikayil Sami scoring every one of his team's goals — including the decider in the fourth chukka that completed a comeback from two down. Raja Jalal Arsalan (3) and Bilal Haye (2) scored for Diamond Paints. The breast-cancer-awareness tournament drew a record 14 teams, including players from England, the Netherlands and Iran; in the subsidiary final, Newage Cables/Master Paints beat Platinum Homes 6-4½.",
+      score: [
+        { team: "Robson International", goals: "6", win: true },
+        { team: "Diamond Paints",       goals: "5" }
+      ],
+      sources: [{ name: "The Nation", url: "https://www.nation.com.pk/26-Oct-2026/mikayil-stars-robson-lift-lsc-polo-pink-title" }]
     },
     {
       region: "arg", regionLabel: "Uruguay", kind: "Result", kindClass: "result",
@@ -713,6 +745,8 @@ window.POLO_DATA = {
 
   /* ---------------- RESULTS LEDGER ---------------- */
   results: [
+    { date: "26 Oct 2026", event: "Lahore Smart City Polo in Pink", region: "Pakistan · Lahore", winner: "Robson International", score: "6–5", runnerUp: "Diamond Paints",
+      sources: [{ name: "The Nation", url: "https://www.nation.com.pk/26-Oct-2026/mikayil-stars-robson-lift-lsc-polo-pink-title" }] },
     { date: "25 Oct 2026", event: "86th Tortugas Open (Zone B)",    region: "Argentina",    winner: "Las Monjitas", score: "22–8", runnerUp: "La Aguada",
       sources: [{ name: "Pololine", url: "https://www.pololine.com/news/86th-tortugas-open-la-hache-and-las-monjitas-to-decide-league-b/" }] },
     { date: "25 Oct 2026", event: "86th Tortugas Open (Zone B)",    region: "Argentina",    winner: "La Hache", score: "14–10", runnerUp: "Híper",
@@ -727,6 +761,8 @@ window.POLO_DATA = {
       sources: [{ name: "Times of India", url: "https://timesofindia.indiatimes.com/city/jaipur/padmanabh-singh-excels-as-team-jaipur-lift-bm-birla-cup-beating-team-mayfair-polo-8-6-in-final/articleshow/135176535.cms" }] },
     { date: "24 Oct 2026 (precise final date unconfirmed)", event: "104th Georgian Cup", region: "Nigeria · Kaduna", winner: "El-Amin Polo Club", score: "12–4", runnerUp: "Kaduna Makarfi",
       sources: [{ name: "Daily Trust", url: "https://dailytrust.com/el-amin-wins-historic-16th-first-bank-georgian-cup/" }, { name: "Gatmash — tournament dates", url: "https://gatmash.com/2026/10/14/georgian-cup-2026-firstbank-backs-nine-days-of-elite-polo-in-kaduna/" }] },
+    { date: "15–18 Oct 2026", event: "Copa de Otoño II (Iberian Polo Tour)", region: "Spain · Sotogrande", winner: "Los Schatzies", score: "10–9½", runnerUp: "Adrenalina",
+      sources: [{ name: "Pololine", url: "https://www.pololine.com/news/los-schatzies-won-the-copa-de-otono-ii-at-ayala-polo-club/" }] },
     { date: "18 Oct 2026", event: "Baroda Cup",                     region: "India · Delhi", winner: "Team Andaaz", score: "—", runnerUp: "Crown Vet",
       sources: [{ name: "myKhel", url: "https://www.mykhel.com/more-sports/baroda-cup-polo-2026-concludes-in-delhi-team-andaaz-pbg-udai-take-top-honours-456847.html" }] },
     { date: "18 Oct 2026", event: "USPA Women's Arena Open",        region: "USA · California", winner: "Ursulus Polo", score: "31–29", runnerUp: "Buchalter",
@@ -800,6 +836,7 @@ window.POLO_DATA = {
   /* ---------------- FORWARD CALENDAR ---------------- */
   calendar: [
     { when: "26–31 Oct",         title: "Al Habtoor Halloween Cup",       detail: "2-4 goal. Part of the newly confirmed 15-event 2026-27 Gulf season.",                                   where: "Al Habtoor, UAE" },
+    { when: "26 Oct – 11 Nov",   title: "Copa La Hache",                  detail: "Fourth edition, 18-20 goal, ten teams across two leagues. Final and the Copa Clonargen both on 11 Nov.", where: "La Hache, General Rodríguez, Argentina" },
     { when: "27 Oct – 1 Nov",    title: "Pink Polo Trophy",               detail: "Accra's international signature event, funding breast-cancer screening and education.",              where: "Accra, Ghana" },
     { when: "31 Oct, 16:00",     title: "86th Tortugas Open — Zone A decider", detail: "Ellerstina Indios Chapaleufú vs. La Natividad La Dolfina, both unbeaten; winner through to the final. Confirmed by Pololine.", where: "Tortugas CC, Argentina" },
     { when: "1 Nov, 16:00",      title: "86th Tortugas Open — Zone B decider", detail: "Las Monjitas vs. La Hache, after both won their 25 October matches 22-8 and 14-10 respectively; winner through to the final.", where: "Tortugas CC, Argentina" },
