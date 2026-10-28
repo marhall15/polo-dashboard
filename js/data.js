@@ -7,11 +7,11 @@
 window.POLO_DATA = {
 
   meta: {
-    updated: "27 October 2026",
-    edition: "No. 10",
+    updated: "28 October 2026",
+    edition: "No. 11",
     stats: [
       { n: "17",  l: "Tortugas matches played in 20 days" },
-      { n: "43",  l: "Finals in the 2026 ledger" },
+      { n: "44",  l: "Finals in the 2026 ledger" },
       { n: "40",  l: "Goals — highest-rated team on earth" },
       { n: "Feb 2027", l: "FIP World Cup — Uruguay, confirmed" },
       { n: "7",   l: "Regions tracked" }
@@ -172,8 +172,11 @@ window.POLO_DATA = {
       date: "26 Oct 2026",
       title: "Copa La Hache opens at the club's own ground — ten teams, 18-20 goal",
       body:
-        "The fourth edition of the Copa La Hache began on 26 October at the namesake club in General Rodríguez, Buenos Aires Province, and runs through to 11 November. Ten teams — La Esperanza, La Ensenada, Colorado, La Fe, Balanz Capital, La Dolfina Marqués de Riscal, Hípica Polo, Lavinia, Cría Marmén and Cría Libélula — are split into two five-team leagues playing four qualification games each, with Camilo Castagnola, Hilario Ulloa, Lorenzo Chavanne and Jerónimo del Carril among the players involved. Matches run six chukkas with no draws permitted; the two league winners meet in the Copa La Hache final on 11 November, with the second-placed sides contesting the Copa Clonargen earlier that day.",
-      sources: [{ name: "Pololine", url: "https://www.pololine.com/news/the-copa-la-hache-is-coming-up/" }]
+        "The fourth edition of the Copa La Hache began on 26 October at the namesake club in General Rodríguez, Buenos Aires Province, and runs through to 11 November. Ten teams — La Esperanza, La Ensenada, Colorado, La Fe, Balanz Capital, La Dolfina Marqués de Riscal, Hípica Polo, Lavinia, Cría Marmén and Cría Libélula — are split into two five-team leagues playing four qualification games each, with Camilo Castagnola, Hilario Ulloa, Lorenzo Chavanne and Jerónimo del Carril among the players involved. Matches run six chukkas with no draws permitted; the two league winners meet in the Copa La Hache final on 11 November, with the second-placed sides contesting the Copa Clonargen earlier that day. Opening day, 26 October, produced four results: La Esperanza 13-5 La Fe, Cría Libélula 8-5 Lavinia, La Dolfina Marqués de Riscal 12-10 Cría Marmén and Balanz Capital 12-6 Colorado.",
+      sources: [
+        { name: "Pololine — tournament preview", url: "https://www.pololine.com/news/the-copa-la-hache-is-coming-up/" },
+        { name: "Pololine — opening-day results", url: "https://www.pololine.com/news/the-fourth-edition-of-the-copa-la-hache-kicked-off/" }
+      ]
     },
     {
       region: "europe", regionLabel: "Spain", kind: "Result", kindClass: "result",
@@ -186,6 +189,21 @@ window.POLO_DATA = {
         { team: "Adrenalina",    goals: "9½" }
       ],
       sources: [{ name: "Pololine", url: "https://www.pololine.com/news/los-schatzies-won-the-copa-de-otono-ii-at-ayala-polo-club/" }]
+    },
+    {
+      region: "europe", regionLabel: "Spain", kind: "Result", kindClass: "result",
+      date: "22–25 Oct 2026",
+      title: "Quinto Elemento Adrenalina win the Memorial Conde de la Maza at Ayala Polo Club",
+      body:
+        "Quinto Elemento Adrenalina — Nicolás Ruiz Guiñazú, Nicolás López Fuentes, Martijn Van Scherpenzeel and Philipp Gesell, rated 7 goals and receiving half a goal on handicap — beat Schatzies Polo 9.5-6 in the final, played across 22–25 October at Ayala Polo Club in Sotogrande. The 8-goal Schatzies lineup of Jella Herzer, Juan Gavira, Luis Domecq and Clement Delfosse stayed in touch after trailing 4.5-1 in the first chukka, but Quinto Elemento Adrenalina pulled away again after half-time. Pololine describes the result as opening the Iberian Polo Tour's autumn season, even though the already-reported Copa de Otoño II at the same club ran earlier, 15–18 October — the two are evidently separate legs of the same autumn tour rather than a strict chronological sequence.",
+      score: [
+        { team: "Quinto Elemento Adrenalina", goals: "9½", win: true },
+        { team: "Schatzies Polo",              goals: "6" }
+      ],
+      sources: [
+        { name: "Pololine", url: "https://www.pololine.com/news/quinto-elemento-adrenalina-the-winners-of-the-memorial-conde-de-la-maza/" },
+        { name: "Sotogrande Guide — tournament dates", url: "https://www.sotogrande.guide/events/iberian-polo-tour-memorial-conde-de-la-maza" }
+      ]
     },
     {
       region: "asia", regionLabel: "Pakistan", kind: "Result", kindClass: "result",
@@ -723,10 +741,11 @@ window.POLO_DATA = {
       date: "20 Sept 2026",
       title: "The Australian Open was played — but no result has been published",
       body:
-        "Finals day was scheduled at Elysian Fields, Boyland, Queensland, run by the South East Queensland Polo Club. No winner or score could be found in any accessible source. Ellerston, the Packer family estate in the Hunter Valley that anchors Australian high-goal polo, held its Kerry Packer Challenge Cup finals on 29 March; that result is likewise unpublished. Ellerston TV and PoloCam TV carry the matches.",
+        "Finals day was scheduled at Elysian Fields, Boyland, Queensland, run by the South East Queensland Polo Club. No winner or score could be found in any accessible source. Ellerston, the Packer family estate in the Hunter Valley that anchors Australian high-goal polo, held its Kerry Packer Challenge Cup finals on 29 March; that result is likewise unpublished. The pattern continued at Ellerston's spring series: the 12-goal Ellerston Spring Trophy final, Gardenvale v. Wright Pastoral, was played 25 October per NSW Polo's own published schedule, with a live stream link issued in advance — but, as of this update, no winner or score has appeared on NSW Polo, Ellerston TV or any other accessible source. Ellerston TV and PoloCam TV carry the matches.",
       sources: [
         { name: "Australian Polo Federation", url: "https://www.australianpolo.com.au/" },
-        { name: "Ellerston TV", url: "https://tv.ellerston.com/" }
+        { name: "Ellerston TV", url: "https://tv.ellerston.com/" },
+        { name: "NSW Polo — Ellerston Spring Trophy final schedule", url: "https://www.nswpolo.com.au/News/Articles/24-Oct-2026/Ellerston-Spring-Trophy-and-Archibald-Cudmore-Trophy-Finals-Sunday-25-October" }
       ]
     },
     {
@@ -747,6 +766,8 @@ window.POLO_DATA = {
   results: [
     { date: "26 Oct 2026", event: "Lahore Smart City Polo in Pink", region: "Pakistan · Lahore", winner: "Robson International", score: "6–5", runnerUp: "Diamond Paints",
       sources: [{ name: "The Nation", url: "https://www.nation.com.pk/26-Oct-2026/mikayil-stars-robson-lift-lsc-polo-pink-title" }] },
+    { date: "25 Oct 2026", event: "Memorial Conde de la Maza (Iberian Polo Tour)", region: "Spain · Sotogrande", winner: "Quinto Elemento Adrenalina", score: "9½–6", runnerUp: "Schatzies Polo",
+      sources: [{ name: "Pololine", url: "https://www.pololine.com/news/quinto-elemento-adrenalina-the-winners-of-the-memorial-conde-de-la-maza/" }] },
     { date: "25 Oct 2026", event: "86th Tortugas Open (Zone B)",    region: "Argentina",    winner: "Las Monjitas", score: "22–8", runnerUp: "La Aguada",
       sources: [{ name: "Pololine", url: "https://www.pololine.com/news/86th-tortugas-open-la-hache-and-las-monjitas-to-decide-league-b/" }] },
     { date: "25 Oct 2026", event: "86th Tortugas Open (Zone B)",    region: "Argentina",    winner: "La Hache", score: "14–10", runnerUp: "Híper",
