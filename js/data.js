@@ -7,8 +7,8 @@
 window.POLO_DATA = {
 
   meta: {
-    updated: "28 October 2026",
-    edition: "No. 11",
+    updated: "29 October 2026",
+    edition: "No. 12",
     stats: [
       { n: "17",  l: "Tortugas matches played in 20 days" },
       { n: "44",  l: "Finals in the 2026 ledger" },
@@ -706,17 +706,17 @@ window.POLO_DATA = {
       ]
     },
     {
-      region: "africa", regionLabel: "Nigeria", kind: "Qualifier", kindClass: "hot",
-      date: "9–16 Nov 2026",
-      title: "El-Amin take a 16th Georgian Cup as Nigeria prepares to host FIP Zone E Play-Offs",
+      region: "africa", regionLabel: "Nigeria", kind: "Correction", kindClass: "hot",
+      date: "25 Oct 2026",
+      title: "Correction: El-Amin's 2026 Georgian Cup was a 10-10 draw and a 17th title, not a 12-4 win and a 16th",
       body:
-        "The Nigerian Polo Association confirmed it will host the Zone E Playoffs of the XIII FIP World Polo Championship at Guards Polo Club, Abuja, from 9 to 16 November — six matches over the week (decisive rounds 11, 13 and 15 November) between Nigeria, India, Iran and Pakistan for a single berth at the February 2027 World Championship in Punta del Este, Uruguay. It follows the USA's Zone A qualification in Wellington in May. Separately, 2026's Kaduna International Polo Tournament — featuring the Georgian Cup, the oldest and most prestigious trophy in West African polo, first awarded in 1919 — ran a ten-day format for the first time in its 106-year history at Murtala Mohammed Square, with foreign professionals from Argentina, Europe and South Africa in the field alongside clubs from Lagos, Kano, Abuja and Port Harcourt. El-Amin Polo Club, celebrating its own 30th anniversary, beat Kaduna Makarfi 12-4 in the 104th Georgian Cup final to take a record 16th title, with patron Mohammed Babangida fielding Argentine professional Facundo alongside him. FirstBank's own pre-tournament release confirms the nine-day Georgian Cup ran 16–24 October at Kaduna Polo Club; Daily Trust's report of the final, published after the close, describes it only as played 'over the weekend' — consistent with a Saturday 24 October final, the tournament's closing day, though no outlet gave that exact date for the final itself.",
+        "An earlier edition of this page misdated the Georgian Cup result, citing a Daily Trust/Blueprint report of El-Amin's 12-4 win over Kaduna Makarfi — a 16th title — as 2026 news. That match was in fact the 2025 final (the 104th edition); Blueprint's own follow-up confirms it explicitly. The actual 2026 final, the 106th Kaduna International Polo Tournament, ended on Sunday 25 October at Murtala Mohammed Square: defending champions El-Amin played out a 10-10 draw with Malcomais (also rendered Malcomines) in the Georgian Cup final and were awarded the trophy on the outcome of the two sides' previous meeting earlier in the tournament — their 17th title, extending their own record. Separately, the Nigerian Polo Association confirmed it will host the Zone E Playoffs of the XIII FIP World Polo Championship at Guards Polo Club, Abuja, from 9 to 16 November — six matches over the week (decisive rounds 11, 13 and 15 November) between Nigeria, India, Iran and Pakistan for a single berth at the February 2027 World Championship in Punta del Este, Uruguay. It follows the USA's Zone A qualification in Wellington in May.",
       sources: [
+        { name: "Guardian Nigeria — El-Amin wins 17th Georgian Cup, 106th edition, 10-10 draw", url: "https://guardian.ng/news/kaduna-international-polo-el-amin-wins-georgian-cup/" },
+        { name: "Sporting Tribune — El-Amin win Georgian Cup on a draw", url: "https://sportingtribune.com/kaduna-international-polo-defending-champions-el-amin-win-georgian-cup/" },
+        { name: "Blueprint — El-Amin win record 17th title, clarifies 2025 vs. 2026 finals", url: "https://blueprint.ng/polo-kadunas-el-amin-win-record-17th-title-in-firstbank-sponsored-georgian-cup/" },
         { name: "Punch — FIP Zone E Playoffs", url: "https://punchng.com/nigeria-to-host-zone-e-playoffs-of-the-xiii-fip-world-polo-championship-in-abuja/" },
-        { name: "Sports247 — Abuja preparations", url: "https://www.sports247.ng/nigeria-targets-sports-tourism-boost-as-abuja-prepares-for-world-polo-championship-qualifiers/" },
-        { name: "Gatmash — Georgian Cup 2026 dates (16–24 Oct)", url: "https://gatmash.com/2026/10/14/georgian-cup-2026-firstbank-backs-nine-days-of-elite-polo-in-kaduna/" },
-        { name: "Daily Trust — El-Amin wins 16th Georgian Cup", url: "https://dailytrust.com/el-amin-wins-historic-16th-first-bank-georgian-cup/" },
-        { name: "Blueprint — El-Amin makes history", url: "https://blueprint.ng/el-amin-polo-makes-history-wins-16th-georgian-cup/" }
+        { name: "Sports247 — Abuja preparations", url: "https://www.sports247.ng/nigeria-targets-sports-tourism-boost-as-abuja-prepares-for-world-polo-championship-qualifiers/" }
       ]
     },
 
@@ -780,8 +780,8 @@ window.POLO_DATA = {
       sources: [{ name: "PoloHUB", url: "https://polohub.net/es/noticias/ellerstina-indios-chapaleufu-vista-vence-a-don-ercole-larrainvial-y" }] },
     { date: "24 Oct 2026", event: "B.M. Birla Cup",                 region: "India · Jaipur", winner: "Team Jaipur", score: "8–6", runnerUp: "Team Mayfair Polo",
       sources: [{ name: "Times of India", url: "https://timesofindia.indiatimes.com/city/jaipur/padmanabh-singh-excels-as-team-jaipur-lift-bm-birla-cup-beating-team-mayfair-polo-8-6-in-final/articleshow/135176535.cms" }] },
-    { date: "24 Oct 2026 (precise final date unconfirmed)", event: "104th Georgian Cup", region: "Nigeria · Kaduna", winner: "El-Amin Polo Club", score: "12–4", runnerUp: "Kaduna Makarfi",
-      sources: [{ name: "Daily Trust", url: "https://dailytrust.com/el-amin-wins-historic-16th-first-bank-georgian-cup/" }, { name: "Gatmash — tournament dates", url: "https://gatmash.com/2026/10/14/georgian-cup-2026-firstbank-backs-nine-days-of-elite-polo-in-kaduna/" }] },
+    { date: "25 Oct 2026", event: "106th Georgian Cup (Kaduna Int'l Polo Tournament)", region: "Nigeria · Kaduna", winner: "El-Amin Polo Club (10-10 draw, awarded on prior encounter)", score: "10–10", runnerUp: "Malcomais",
+      sources: [{ name: "Guardian Nigeria", url: "https://guardian.ng/news/kaduna-international-polo-el-amin-wins-georgian-cup/" }, { name: "Sporting Tribune", url: "https://sportingtribune.com/kaduna-international-polo-defending-champions-el-amin-win-georgian-cup/" }] },
     { date: "15–18 Oct 2026", event: "Copa de Otoño II (Iberian Polo Tour)", region: "Spain · Sotogrande", winner: "Los Schatzies", score: "10–9½", runnerUp: "Adrenalina",
       sources: [{ name: "Pololine", url: "https://www.pololine.com/news/los-schatzies-won-the-copa-de-otono-ii-at-ayala-polo-club/" }] },
     { date: "18 Oct 2026", event: "Baroda Cup",                     region: "India · Delhi", winner: "Team Andaaz", score: "—", runnerUp: "Crown Vet",
