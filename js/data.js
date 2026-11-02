@@ -7,8 +7,8 @@
 window.POLO_DATA = {
 
   meta: {
-    updated: "1 November 2026",
-    edition: "No. 13",
+    updated: "2 November 2026",
+    edition: "No. 14",
     stats: [
       { n: "17",  l: "Tortugas matches played in 20 days" },
       { n: "44",  l: "Finals in the 2026 ledger" },
@@ -61,14 +61,14 @@ window.POLO_DATA = {
       },
       {
         name: "133rd Argentine Open — Palermo",
-        dates: "10 Nov – 12 Dec 2026 · Campo Argentino de Polo",
+        dates: "14 Nov – 12 Dec 2026 · Campo Argentino de Polo",
         state: "next",
-        statusLabel: "Upcoming",
+        statusLabel: "Upcoming — rescheduled",
         champion: null,
         scoreline: null,
         note:
-          "The Cathedral. The scheduling worry has eased: the Vatican's official itinerary for Pope Leo XIV's 8–11 November Argentina visit, published in September, places his Palermo mass at the Monumento de los Españoles at 11:30 on Monday 9 November — the day before Palermo's scheduled 10 November opening, not on top of it. The AAP has issued no revised calendar and none was needed; every official fixture still shows the original 10 November start and 12 December final. Tennium, which runs the Argentina Open tennis event, joins as the AAP's commercial partner.",
-        source: { name: "Infobae — papal itinerary confirmed", url: "https://www.infobae.com/sociedad/2026/09/21/se-confirmo-la-agenda-del-papa-en-argentina-el-lunes-9-a-las-1130-sera-la-misa-multitudinaria-en-palermo/" }
+          "The Cathedral, now opening four days later than planned. The AAP announced on 29 October that the 133rd Argentine Open will kick off Saturday 14 November rather than the originally billed 10th — Zone A at 2pm and 4:30pm that day, Zone B following on Sunday 15th, with matchdays 3 and 4 on Tuesday 17 and Wednesday 18 November. Pololine attributes the change to Pope Leo XIV's 8–11 November Argentina visit; Prensa Polo reports a more layered story, that an initial Pope-driven shift to a 4 November start was then pushed further back by the same rain that disrupted the Tortugas Open and by forecasts of more to come. Both outlets agree on the headline fact: the final date is unchanged at Saturday 12 December, 4:30pm on Court 1. Tennium, which runs the Argentina Open tennis event, joins as the AAP's commercial partner.",
+        source: { name: "Pololine — reschedule announced", url: "https://www.pololine.com/news/the-aap-announced-the-rescheduled-of-the-133rd-argentine-polo-open-championship/" }
       }
     ]
   },
@@ -137,12 +137,15 @@ window.POLO_DATA = {
       ]
     },
     {
-      region: "arg", regionLabel: "Argentina", kind: "Scheduling", kindClass: "",
-      date: "Nov 2026",
-      title: "The papal visit won't clash with Palermo's opening after all",
+      region: "arg", regionLabel: "Argentina", kind: "Scheduling", kindClass: "hot",
+      date: "29 Oct 2026",
+      title: "Palermo's opening pushed back four days, after all — to 14 November",
       body:
-        "Pope Leo XIV's four-day Argentina visit (8–11 November) had raised the possibility of a date clash with Palermo. The Vatican's official itinerary, published in September, places his Monumento de los Españoles mass — effectively next door to the Campo Argentino de Polo — at 11:30 on Monday 9 November, the day before Palermo's scheduled 10 November opening. The AAP has not published, and does not appear to need, a revised calendar; every official fixture still shows the original 10 November start and 12 December final.",
-      sources: [{ name: "Infobae — papal itinerary confirmed", url: "https://www.infobae.com/sociedad/2026/09/21/se-confirmo-la-agenda-del-papa-en-argentina-el-lunes-9-a-las-1130-sera-la-misa-multitudinaria-en-palermo/" }]
+        "An update to our earlier read that the papal visit and Palermo's calendar wouldn't clash: on 29 October the AAP announced the 133rd Argentine Open will now open Saturday 14 November, not the originally billed 10th. Zone A plays at 2pm and 4:30pm that day, Zone B follows Sunday 15 November, and matchdays 3 and 4 move to Tuesday 17 and Wednesday 18 November. Pololine ties the change to Pope Leo XIV's 8–11 November Argentina visit; Prensa Polo's account is more layered, describing an initial Pope-driven shift to a 4 November start that was then pushed back further by the rain that had already disrupted the Tortugas Open, plus forecasts of more. Both agree the final is unaffected: Saturday 12 December, 4:30pm on Court 1, Campo Argentino de Polo.",
+      sources: [
+        { name: "Pololine — reschedule announced", url: "https://www.pololine.com/news/the-aap-announced-the-rescheduled-of-the-133rd-argentine-polo-open-championship/" },
+        { name: "Prensa Polo — full revised fixture list", url: "https://prensapolo.com/en/2026/10/29/fechas-palermo/" }
+      ]
     },
     {
       region: "arg", regionLabel: "Argentina", kind: "Handicaps", kindClass: "",
@@ -582,6 +585,14 @@ window.POLO_DATA = {
       ]
     },
     {
+      region: "asia", regionLabel: "India", kind: "Controversy", kindClass: "hot",
+      date: "2 Nov 2026",
+      title: "A doping row engulfs India's squad for the Abuja World Cup playoffs",
+      body:
+        "Naveen Singh, left off India's seven-man squad for the 9–16 November FIP Zone E Playoffs in Abuja, has written to the Indian Polo Association alleging irregularities in selection — chiefly that a player not on the original shortlist of 12, who missed the coaching camp and practice sessions, and who returned a positive NADA test for cocaine last year, was nonetheless picked. Naveen says an IPA executive committee member confirmed a panel had barred the player from international selection for two years, a ban he says was never enforced, after the IPA itself imposed only a three-month suspension despite NADA rules allowing up to three years. National coach Col. NS Sandhu defended the selection, saying the player's ban had run its course and he was eligible, and dismissed the affair as manufactured controversy. Reported via a single wire source (PTI, carried by Rediff); no response from the player named in the allegations, who Naveen did not identify publicly, could be found.",
+      sources: [{ name: "Rediff / PTI", url: "https://www.rediff.com/sports/report/snubbed-indian-player-questions-polo-world-cup-selection/20261102.htm" }]
+    },
+    {
       region: "asia", regionLabel: "India", kind: "Result", kindClass: "result",
       date: "23 Mar 2026",
       title: "Jaipur take an 11th Indian Open",
@@ -878,7 +889,7 @@ window.POLO_DATA = {
     { when: "9–14 Nov",          title: "Al Habtoor November Tournament", detail: "4-6 goal.",                                                                                             where: "Al Habtoor, UAE" },
     { when: "9–16 Nov",          title: "FIP Zone E World Cup Play-Offs", detail: "Nigeria, India, Iran and Pakistan contest a single berth at the 2027 Uruguay World Championship.",     where: "Guards Polo Club, Abuja, Nigeria" },
     { when: "7 Nov",             title: "86th Tortugas Open final",       detail: "Confirmed: La Natividad La Dolfina vs. La Hache, Cancha 6, after both zone deciders were played 31 Oct/1 Nov — La Hache reaching the final on a goal-difference tiebreak despite losing their decider.", where: "Tortugas CC, Argentina" },
-    { when: "10 Nov – 12 Dec",   title: "133rd Argentine Open",           detail: "Palermo. Opening dates confirmed unchanged — the Pope's 9 November Palermo mass falls the day before the 10 November opening; final 12 December.", where: "Campo Argentino de Polo" },
+    { when: "14 Nov – 12 Dec",   title: "133rd Argentine Open",           detail: "Palermo. Opening rescheduled from 10 to 14 November by the AAP on 29 Oct — the Pope's visit and lingering Tortugas rain both cited; final unchanged at 12 December.", where: "Campo Argentino de Polo" },
     { when: "11 Nov",            title: "La Dolfina annual breeding auction", detail: "Remate Anual de Cría. Advertised date, not independently confirmed.",                            where: "La Dolfina Polo Club" },
     { when: "14 Nov",            title: "Standard Bank Polo Test Match",  detail: "South Africa defends last year's 8-6 win over England.",                                               where: "Val de Vie Estate, Paarl, South Africa" },
     { when: "24–28 Nov",         title: "UAE National Day Tournament",    detail: "8-10 goal. Part of Al Habtoor's confirmed 2026-27 calendar.",                                        where: "Al Habtoor, UAE" },
