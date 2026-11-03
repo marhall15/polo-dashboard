@@ -7,11 +7,11 @@
 window.POLO_DATA = {
 
   meta: {
-    updated: "2 November 2026",
-    edition: "No. 14",
+    updated: "3 November 2026",
+    edition: "No. 15",
     stats: [
       { n: "17",  l: "Tortugas matches played in 20 days" },
-      { n: "44",  l: "Finals in the 2026 ledger" },
+      { n: "47",  l: "Finals in the 2026 ledger" },
       { n: "40",  l: "Goals — highest-rated team on earth" },
       { n: "Feb 2027", l: "FIP World Cup — Uruguay, confirmed" },
       { n: "7",   l: "Regions tracked" }
@@ -56,7 +56,7 @@ window.POLO_DATA = {
           { team: "Ellerstina Indios Chapaleufú",    goals: "10" }
         ],
         note:
-          "Ten teams for the first time, after the AAP gave both Qualification Tournament winners a Tortugas berth. Both zone deciders are now played and the final is confirmed. In the Zone A decider on 31 October, La Natividad La Dolfina — the reigning Triple Crown holder and the AAP's sole surviving 2026 Crown contender — beat Ellerstina Indios Chapaleufú 18-10 (progression 1-2, 4-2, 6-4, 8-4, 10-4, 13-6, 16-6, 18-10) behind eight goals from Camilo \"Jeta\" Castagnola, extending their unbeaten run to 19 straight matches since the Castagnola/Cambiaso organisations merged. Zone B's decider on 1 November produced a twist: Las Monjitas beat La Hache 16-13, but a same-day 16-15 win for La Irenita over La Aguada left La Hache, Las Monjitas and La Irenita tied on 6 points apiece, forcing a mini-league tiebreak on goal difference among the three. La Hache topped it at +3 (31 for, 28 against) ahead of Las Monjitas at +1 and La Irenita at -4, sending La Hache through to the final despite its defeat. Rufino Bensadón top-scored the decider with 11 (and 39 for the tournament) and was named MVP. The final is confirmed for Saturday 7 November on Cancha 6 at Tortugas: La Natividad La Dolfina, chasing a 5th Triple Crown title and a 20th straight win, against La Hache, seeking revenge for their Hurlingham final defeat and a 2nd Triple Crown title of their own.",
+          "Ten teams for the first time, after the AAP gave both Qualification Tournament winners a Tortugas berth. Both zone deciders are now played and the final is confirmed. In the Zone A decider on 31 October, La Natividad La Dolfina — the reigning Triple Crown holder and the AAP's sole surviving 2026 Crown contender — beat Ellerstina Indios Chapaleufú 18-10 (progression 1-2, 4-2, 6-4, 8-4, 10-4, 13-6, 16-6, 18-10) behind eight goals from Camilo \"Jeta\" Castagnola, extending their unbeaten run to 19 straight matches since the Castagnola/Cambiaso organisations merged. Zone B's decider on 1 November produced a twist: Las Monjitas beat La Hache 16-13, but a same-day 16-15 win for La Irenita over La Aguada left La Hache, Las Monjitas and La Irenita tied on 6 points apiece, forcing a mini-league tiebreak on goal difference among the three. La Hache topped it at +3 (31 for, 28 against) ahead of Las Monjitas at +1 and La Irenita at -4, sending La Hache through to the final despite its defeat. Rufino Bensadón top-scored the decider with 11 (and 39 for the tournament) and was named MVP. The final is confirmed for Saturday 7 November on Cancha 6 at Tortugas: La Natividad La Dolfina, chasing a 5th Triple Crown title and a 20th straight win, against La Hache, seeking revenge for their Hurlingham final defeat and a 2nd Triple Crown title of their own. On 2 November, La Hache announced Yellowrose Polo Ranch as an alliance sponsor for the final and the run into Palermo.",
         source: { name: "AAP — official Zone B decider recap and tiebreak", url: "https://www.aapolo.com/noticias/detalle/9318" }
       },
       {
@@ -119,6 +119,17 @@ window.POLO_DATA = {
         { name: "El Ciudadano — 19th straight win, Zone A decider", url: "https://elciudadano.com.ar/contenido/24434/polo-la-natividad-la-dolfina-logro-su-19o-triunfo-al-hilo-y-es-finalista-del-abi" },
         { name: "Alternativa en Papel — the tiebreak explained", url: "https://alternativaenpapel.com.ar/2026/11/01/triple-empate-diferencia-de-gol-y-final-la-hache-y-un-pase-agonico-a-tortugas/" },
         { name: "AAP — official Zone B decider recap and tiebreak", url: "https://www.aapolo.com/noticias/detalle/9318" }
+      ]
+    },
+    {
+      region: "arg", regionLabel: "Argentina", kind: "Sponsorship", kindClass: "",
+      date: "2 Nov 2026",
+      title: "La Hache brings in Yellowrose Polo Ranch as alliance sponsor for Tortugas and Palermo",
+      body:
+        "A day after reaching the Tortugas final on the goal-difference tiebreak, La Hache Polo Team announced an alliance with Yellowrose Polo Ranch, the Punta del Este outfit founded in 1996 by Jorge \"Corcho\" Rodríguez. Yellowrose will back La Hache's 34-goal lineup — brothers Hilario (9) and Carlos María Ulloa (8), and brothers Benjamín (8) and Tomás Panelo (9) — through Saturday's final against La Natividad La Dolfina and into the 133rd Argentine Open at Palermo.",
+      sources: [
+        { name: "Infobae", url: "https://www.infobae.com/deportes/2026/11/02/la-hache-y-yellowrose-se-unen-para-jugar-tortugas-y-palermo/" },
+        { name: "Cadena 3", url: "https://www.cadena3.com/noticia/deportes/la-hache-y-yellowrose-polo-se-unen-para-brillar-en-tortugas-y-palermo_609433" }
       ]
     },
     {
@@ -523,6 +534,18 @@ window.POLO_DATA = {
     },
     {
       region: "gulf", regionLabel: "UAE", kind: "Result", kindClass: "result",
+      date: "31 Oct 2026",
+      title: "Sheikha Alia Al Maktoum leads Ghantoot to the 17th Pink Polo Festival title",
+      body:
+        "Ghantoot Polo Team beat Elite Polo Team 8-3 in the final of the 17th Pink Polo Festival at Ghantoot Racing & Polo Club, Abu Dhabi, held under the patronage of Sheikh Falah bin Zayed Al Nahyan. Sheikha Alia Al Maktoum, who captained the winning side, took Player of the Match. The breast-cancer-awareness fixture again partnered with Burjeel Breast Centre and Burjeel Cancer Institute, which provided free screening on site.",
+      score: [
+        { team: "Ghantoot Polo Team", goals: "8", win: true },
+        { team: "Elite Polo Team",    goals: "3" }
+      ],
+      sources: [{ name: "Gulf Today", url: "https://www.gulftoday.ae/sport/2026/11/03/ghantoot-polo-team-crowned-winners-as-pink-polo-festival-kicks-off-new-season" }]
+    },
+    {
+      region: "gulf", regionLabel: "UAE", kind: "Result", kindClass: "result",
       date: "14 Feb 2026",
       title: "Dubai Wolves end UAE Polo's six-year grip on the Gold Cup",
       body:
@@ -790,6 +813,12 @@ window.POLO_DATA = {
         { name: "Los Andes", url: "https://www.losandes.com.ar/deportes/polo-la-natividad-la-dolfina-aplasto-ellerstina-y-es-finalista-del-abierto-tortugas-n6012610" },
         { name: "El Ciudadano", url: "https://elciudadano.com.ar/contenido/24434/polo-la-natividad-la-dolfina-logro-su-19o-triunfo-al-hilo-y-es-finalista-del-abi" }
       ] },
+    { date: "1 Nov 2026",  event: "14th Maj Gen Saeed Uz Zaman Janjua Memorial Polo Cup", region: "Pakistan · Lahore", winner: "Diamond Paints / Imperial", score: "10–8", runnerUp: "FG / Din / Sheikhoo",
+      sources: [{ name: "The Nation", url: "https://www.nation.com.pk/02-Nov-2026/dp-imperial-clinch-14th-maj-gen-saeed-uz-zaman-janjua-memorial-polo-cup-trophy" }] },
+    { date: "1 Nov 2026",  event: "HPRC Arena Polo Tournament", region: "India · Hyderabad", winner: "HPRC Artists", score: "14–10", runnerUp: "HPRC Tigers",
+      sources: [{ name: "Telangana Today", url: "https://telanganatoday.com/hprc-artists-beats-tigers-14-10-to-win-arena-polo-tournament-2026" }] },
+    { date: "31 Oct 2026", event: "17th Pink Polo Festival", region: "UAE · Ghantoot", winner: "Ghantoot Polo Team", score: "8–3", runnerUp: "Elite Polo Team",
+      sources: [{ name: "Gulf Today", url: "https://www.gulftoday.ae/sport/2026/11/03/ghantoot-polo-team-crowned-winners-as-pink-polo-festival-kicks-off-new-season" }] },
     { date: "31 Oct 2026", event: "Al Habtoor Halloween Cup", region: "UAE · Al Habtoor", winner: "Habtoor Polo", score: "6–4½", runnerUp: "Belgravia Bayt Polo Team",
       sources: [{ name: "Al Habtoor Polo Club", url: "https://www.alhabtoorpoloclub.com/news/550/habtoor-polo-claim-the-halloween-cup-2026-title!" }] },
     { date: "26 Oct 2026", event: "Lahore Smart City Polo in Pink", region: "Pakistan · Lahore", winner: "Robson International", score: "6–5", runnerUp: "Diamond Paints",
