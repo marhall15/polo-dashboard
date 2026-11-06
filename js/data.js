@@ -7,8 +7,8 @@
 window.POLO_DATA = {
 
   meta: {
-    updated: "5 November 2026",
-    edition: "No. 16",
+    updated: "6 November 2026",
+    edition: "No. 17",
     stats: [
       { n: "17",  l: "Tortugas matches played in 20 days" },
       { n: "47",  l: "Finals in the 2026 ledger" },
@@ -326,11 +326,14 @@ window.POLO_DATA = {
     },
     {
       region: "usa", regionLabel: "United States", kind: "Governance", kindClass: "",
-      date: "Mid-2026",
-      title: "A leadership change at the USPA that nobody quite announced",
+      date: "13 Oct 2026",
+      title: "Resolved: the USPA's Tim Kelly/Leighton Jordan transition, confirmed",
       body:
-        "A March 2026 release quotes Stewart Armstrong as USPA Chairman; by September, official releases name Tim Kelly in the same role, having earlier been described as President. A transition clearly occurred during 2026, but no dated announcement could be found. Treat as unconfirmed. Separately, new Outdoor Polo Rules and Tournament Conditions took effect 1 January 2026, with equine welfare cited as a driver.",
-      sources: [{ name: "Polo Biz — Tim Kelly profile", url: "https://www.polobiz.com/post/a-new-era-for-us-polo-led-by-tim-kelly" }]
+        "A previous edition of this page flagged an unconfirmed USPA leadership change, with a March 2026 release naming Stewart Armstrong as Chairman and later releases naming Tim Kelly in that role instead. The USPA's own 13 October announcement, corroborated by its October 2026 organisational chart, now dates and explains the transition: at a Special Meeting of the Board of Governors on 8 September 2026, Tim Kelly — the sitting President — was elected Chairman of the Board, and Leighton Jordan, a longtime Northeastern Circuit Governor, was elected President to complete the current term through fall 2028. Separately, new Outdoor Polo Rules and Tournament Conditions took effect 1 January 2026, with equine welfare cited as a driver.",
+      sources: [
+        { name: "USPA — Leighton Jordan elected President", url: "https://www.uspolo.org/news-social/news/leighton-jordan-elected-president-of-the-united-states-polo-association" },
+        { name: "USPA — 2026 Organizational Chart (October)", url: "https://d3uxdg7queknzi.cloudfront.net/assets/pdf/2026-USPA-Org-Chart-October.pdf" }
+      ]
     },
     {
       region: "usa", regionLabel: "United States", kind: "Milestone", kindClass: "",
